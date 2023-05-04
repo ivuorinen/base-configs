@@ -1,0 +1,73 @@
+{
+  "private": true,
+  "name": "@ivuorinen/base-configs",
+  "version": "1.0.0",
+  "description": "A collection of base configs for code quality and linting tools.",
+  "author": {
+    "name": "Ismo Vuorinen",
+    "url": "https://github.com/ivuorinen"
+  },
+  "bugs": {
+    "url": "https://github.com/ivuorinen/base-configs/issues"
+  },
+  "contributors": [
+    {
+      "name": "Base Configs Contributors",
+      "url": "https://github.com/ivuorinen/base-configs/graphs/contributors"
+    }
+  ],
+  "engines": {
+    "node": ">= 12",
+    "npm": ">= 6",
+    "yarn": ">=1.20.0"
+  },
+  "homepage": "https://github.com/ivuorinen/base-configs#readme",
+  "keywords": [
+    "commitlint",
+    "config",
+    "eslint",
+    "lint",
+    "markdownlint",
+    "prettier",
+    "semantic-release",
+    "stylelint"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivuorinen/base-configs.git"
+  },
+  "scripts": {
+    "deps:dedupe": "lernaupdate --dedupe",
+    "deps:update": "lernaupdate",
+    "eslint:fix": "eslint --format=pretty '**/*.{js,tsx,ts}' --fix",
+    "eslint:report": "eslint --format=pretty '**/*.{js,tsx,ts}'",
+    "lerna:bootstrap:ci": "lerna bootstrap -- --frozen-lockfile --ignore-engines",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish from-package",
+    "lerna:version": "lerna version",
+    "markdownlint:fix": "markdownlint '**/*.md' --fix",
+    "markdownlint:report": "markdownlint '**/*.md'",
+    "prettier:fix": "prettier '**/*.{js,tsx,ts,json}' --write",
+    "prettier:report": "prettier '**/*.{js,tsx,ts,json}' --check"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "eslint-plugin-unicorn": "^45.0.1",
+    "lerna": "^6.1.0",
+    "lerna-update-wizard": "^1.1.2",
+    "markdownlint-cli": "^0.32.2",
+    "prettier": "^2.8.0",
+    "simple-git-hooks": "^2.8.1"
+  }
+}
