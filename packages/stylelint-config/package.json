@@ -44,5 +44,6 @@
     "stylelint-config-standard": "29.0.0",
     "stylelint-order": "5.0.0",
     "stylelint-scss": "4.3.0"
-  }
+  },
+  "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
