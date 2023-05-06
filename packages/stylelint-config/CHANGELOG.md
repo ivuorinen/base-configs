@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.1.8...@ivuorinen/stylelint-config@0.1.9) (2023-05-06)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-standard to v31 ([#20](https://github.com/ivuorinen/base-configs/issues/20)) ([d3c10df](https://github.com/ivuorinen/base-configs/commit/d3c10df2a753a6b73a1079eef6cbfe8dea3ab4ad))
+- **deps:** update dependency stylelint-scss to v5 ([#24](https://github.com/ivuorinen/base-configs/issues/24)) ([199e029](https://github.com/ivuorinen/base-configs/commit/199e02975a7659095015f3bac48f39b6eaac666d))
+
 ## [0.1.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.1.7...@ivuorinen/stylelint-config@0.1.8) (2023-05-06)
 
 ### Bug Fixes
