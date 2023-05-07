@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.1.2...@ivuorinen/commitlint-config@0.1.3) (2023-05-07)
+
+### Bug Fixes
+
+- **deps:** update devdependencies (patch) to v17.6.3 ([ef76391](https://github.com/ivuorinen/base-configs/commit/ef76391d738b84e463ebb3d23bd5b2d025fcfd92))
+
 ## [0.1.2](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.1.1...@ivuorinen/commitlint-config@0.1.2) (2023-05-04)
 
 ### Bug Fixes
