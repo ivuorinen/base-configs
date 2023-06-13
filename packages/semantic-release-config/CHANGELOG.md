@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.1.4...@ivuorinen/semantic-release-config@0.1.5) (2023-06-13)
+
+### Bug Fixes
+
+- **deps:** update dependency semantic-release to v21.0.5 ([0e25283](https://github.com/ivuorinen/base-configs/commit/0e25283572ffaef56e29b909d2bdbc41d10d1695))
+
 ## [0.1.4](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.1.3...@ivuorinen/semantic-release-config@0.1.4) (2023-06-06)
 
 ### Bug Fixes
