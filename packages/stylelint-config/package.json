@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/stylelint-config",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "ivuorinen's shareable configuration for stylelint.",
   "author": {
     "name": "Ismo Vuorinen",
