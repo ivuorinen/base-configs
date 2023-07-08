@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.1.11...@ivuorinen/eslint-config@0.2.0) (2023-07-08)
+
+### Features
+
+- **deps:** Dropped prettier from eslint configs ([fe71bf6](https://github.com/ivuorinen/base-configs/commit/fe71bf6c4127bfcbcbacbb6962bfd5b64b8de4c1))
+
 ## [0.1.11](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.1.10...@ivuorinen/eslint-config@0.1.11) (2023-07-04)
 
 ### Bug Fixes
