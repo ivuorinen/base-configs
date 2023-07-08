@@ -40,7 +40,7 @@
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "21.0.6"
+    "semantic-release": "21.0.7"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
