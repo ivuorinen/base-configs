@@ -10,8 +10,7 @@ module.exports = {
   extends: [
     'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
-    'standard',
-    'plugin:prettier/recommended'
+    'standard'
   ],
   parserOptions: {
     ecmaVersion: 12
