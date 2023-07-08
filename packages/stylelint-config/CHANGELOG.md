@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.22](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.1.21...@ivuorinen/stylelint-config@0.1.22) (2023-07-08)
+
+### Bug Fixes
+
+- **stylelint:** remove unknown unicorn/no-null ([063ad2f](https://github.com/ivuorinen/base-configs/commit/063ad2fc170ddf7a418fa0e04c2711931a4c2188))
+
 ## [0.1.21](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.1.20...@ivuorinen/stylelint-config@0.1.21) (2023-07-07)
 
 ### Bug Fixes
