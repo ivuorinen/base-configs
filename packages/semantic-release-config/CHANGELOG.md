@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.1.7...@ivuorinen/semantic-release-config@0.1.8) (2023-07-13)
+
+**Note:** Version bump only for package @ivuorinen/semantic-release-config
+
 ## [0.1.7](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.1.6...@ivuorinen/semantic-release-config@0.1.7) (2023-07-08)
 
 ### Bug Fixes
