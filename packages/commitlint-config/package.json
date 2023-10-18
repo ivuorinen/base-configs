@@ -37,8 +37,8 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0"
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
