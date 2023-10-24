@@ -52,8 +52,8 @@
     "prettier:report": "prettier '**/*.{js,tsx,ts,json}' --check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
