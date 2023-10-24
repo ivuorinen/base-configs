@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node.js Environment
-        uses: actions/setup-node@v3.8.2
+        uses: actions/setup-node@v4.0.0
         with:
           always-auth: true
           node-version: 16
