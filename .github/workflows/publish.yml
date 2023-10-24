@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v4.0.0
         with:
           always-auth: true
-          node-version: 16
+          node-version: 18
           registry-url: 'https://registry.npmjs.org'
           scope: '@ivuorinen'
 

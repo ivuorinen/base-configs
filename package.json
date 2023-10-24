@@ -17,9 +17,7 @@
     }
   ],
   "engines": {
-    "node": ">= 12",
-    "npm": ">= 6",
-    "yarn": ">=1.20.0"
+    "node": ">= 18"
   },
   "homepage": "https://github.com/ivuorinen/base-configs#readme",
   "keywords": [
