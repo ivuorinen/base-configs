@@ -10,9 +10,7 @@
     "url": "https://github.com/ivuorinen/base-configs/issues"
   },
   "engines": {
-    "node": ">= 12",
-    "npm": ">= 6",
-    "yarn": ">=1.20.0"
+    "node": ">= 18"
   },
   "files": [
     "css/index.js",
@@ -39,6 +37,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
+    "postcss": "^8.4.2",
     "stylelint": "15.11.0",
     "stylelint-config-recommended-scss": "13.0.0",
     "stylelint-config-standard": "34.0.0",
