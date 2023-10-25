@@ -36,6 +36,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
+    "@ivuorinen/config-checker": "^1.1.0",
     "markdownlint-cli": "0.37.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"

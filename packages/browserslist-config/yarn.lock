@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@ivuorinen/config-checker@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.0.tgz#73a996445a917627cb558ea69f616978ff97da9d"
+  integrity sha512-YHQSF2yt4YZM0W9jdFXdPUB4X1AicweDJWSJtFw58GVI4+wI8+CJtoKL/Dmbn8F3B6H6gngQHwzENqw80Zsskg==
+
 browserslist@4.22.1:
   version "4.22.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.1.tgz#ba91958d1a59b87dab6fed8dfbcb3da5e2e9c619"

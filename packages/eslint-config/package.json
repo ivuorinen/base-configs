@@ -36,6 +36,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
+    "@ivuorinen/config-checker": "^1.1.0",
     "eslint": "8.52.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.28.1",
