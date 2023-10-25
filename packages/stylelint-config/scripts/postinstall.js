@@ -14,7 +14,6 @@ if (foundConfig.length > 0) {
 }
 
 const filePath = path.join(process.env.INIT_CWD, '.stylelintrc.json')
-
 const fileConfigObject = {
   extends: ['@ivuorinen/stylelint-config/css']
 }

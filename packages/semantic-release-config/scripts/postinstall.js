@@ -14,7 +14,6 @@ if (foundConfig.length > 0) {
 }
 
 const filePath = path.join(process.env.INIT_CWD, '.releaserc.json')
-
 const fileConfigObject = {
   extends: ['@ivuorinen/semantic-release-config']
 }

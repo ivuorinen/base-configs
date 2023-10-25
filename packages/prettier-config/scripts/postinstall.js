@@ -14,7 +14,6 @@ if (foundConfig.length > 0) {
 }
 
 const filePath = path.join(process.env.INIT_CWD, '.prettierrc.json')
-
 const fileConfigObject = '@ivuorinen/prettier-config'
 
 if (!fs.existsSync(filePath)) {
