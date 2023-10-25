@@ -3,41 +3,19 @@
 const fs = require('fs')
 const path = require('path')
 const process = require('process')
+const checkConfig = require('@ivuorinen/config-checker')
+const foundConfig = checkConfig('stylelint')
 
-const findCosmicConfig = (moduleName) => {
-  const files = [
-    `.${moduleName}rc`,
-    `.${moduleName}rc.json`,
-    `.${moduleName}rc.yaml`,
-    `.${moduleName}rc.yml`,
-    `.${moduleName}rc.js`,
-    `.${moduleName}rc.ts`,
-    `.${moduleName}rc.mjs`,
-    `.${moduleName}rc.cjs`,
-    `.${moduleName}.jsonc`,
-    `.${moduleName}.yaml`,
-    `.${moduleName}.json`,
-    `${moduleName}rc`,
-    `${moduleName}rc.json`,
-    `${moduleName}rc.yaml`,
-    `${moduleName}rc.yml`,
-    `${moduleName}rc.js`,
-    `.config/${moduleName}rc.ts`,
-    `.config/${moduleName}rc.cjs`,
-    `${moduleName}.config.js`,
-    `${moduleName}.config.ts`,
-    `${moduleName}.config.mjs`,
-    `${moduleName}.config.cjs`
-  ]
-
-  const found = files.filter((file) => fs.existsSync(path.join(process.env.INIT_CWD, file)))
-
-  return found.length > 0
-}
-
-if (findCosmicConfig('stylelint')) {
-  console.log('stylelint-config: Found existing stylelint config file, skipping creation.')
-  console.log('stylelint-config: If you want to create a new config file, please remove the existing one.')
+if (foundConfig.length > 0) {
+  console.log(
+    'stylelint-config: Found existing stylelint config file, skipping creation.'
+  )
+  console.log(
+    'stylelint-config: If you want to create a new config file, please remove the existing one.'
+  )
+  console.log(
+    `stylelint-config: Found config files at: ${foundConfig.join(', ')}`
+  )
   process.exit(0)
 }
 

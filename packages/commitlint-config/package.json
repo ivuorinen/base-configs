@@ -36,7 +36,8 @@
   },
   "dependencies": {
     "@commitlint/cli": "18.0.0",
-    "@commitlint/config-conventional": "18.0.0"
+    "@commitlint/config-conventional": "18.0.0",
+    "@ivuorinen/config-checker": "^1.1.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

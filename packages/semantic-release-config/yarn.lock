@@ -46,6 +46,11 @@
   resolved "https://registry.yarnpkg.com/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
+"@ivuorinen/config-checker@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.0.tgz#73a996445a917627cb558ea69f616978ff97da9d"
+  integrity sha512-YHQSF2yt4YZM0W9jdFXdPUB4X1AicweDJWSJtFw58GVI4+wI8+CJtoKL/Dmbn8F3B6H6gngQHwzENqw80Zsskg==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"

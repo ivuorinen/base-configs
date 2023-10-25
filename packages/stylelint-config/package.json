@@ -37,6 +37,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
+    "@ivuorinen/config-checker": "^1.1.0",
     "postcss": "^8.4.2",
     "stylelint": "15.11.0",
     "stylelint-config-recommended-scss": "13.0.0",

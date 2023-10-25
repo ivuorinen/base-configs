@@ -192,6 +192,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@ivuorinen/config-checker@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.0.tgz#73a996445a917627cb558ea69f616978ff97da9d"
+  integrity sha512-YHQSF2yt4YZM0W9jdFXdPUB4X1AicweDJWSJtFw58GVI4+wI8+CJtoKL/Dmbn8F3B6H6gngQHwzENqw80Zsskg==
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
