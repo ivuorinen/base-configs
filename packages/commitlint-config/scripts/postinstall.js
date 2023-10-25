@@ -7,15 +7,9 @@ const checkConfig = require('@ivuorinen/config-checker')
 const foundConfig = checkConfig('commitlint')
 
 if (foundConfig.length > 0) {
-  console.log(
-    'commitlint-config: Found existing commitlint config file, skipping creation.'
-  )
-  console.log(
-    'commitlint-config: If you want to create a new config file, please remove the existing one.'
-  )
-  console.log(
-    `commitlint-config: Found config files at: ${foundConfig.join(', ')}`
-  )
+  console.log('commitlint-config: Found existing commitlint config file, skipping creation.')
+  console.log('commitlint-config: If you want to create a new config file, please remove the existing one.')
+  console.log(`commitlint-config: Found config files at: ${foundConfig.join(', ')}`)
   process.exit(0)
 }
 

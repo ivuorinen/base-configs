@@ -7,15 +7,9 @@ const checkConfig = require('@ivuorinen/config-checker')
 const foundConfig = checkConfig('browserslist')
 
 if (foundConfig.length > 0) {
-  console.log(
-    'browserslist-config: Found existing browserslist config file, skipping creation.'
-  )
-  console.log(
-    'browserslist-config: If you want to create a new config file, please remove the existing one.'
-  )
-  console.log(
-    `browserslist-config: Found config files at: ${foundConfig.join(', ')}`
-  )
+  console.log('browserslist-config: Found existing browserslist config file, skipping creation.')
+  console.log('browserslist-config: If you want to create a new config file, please remove the existing one.')
+  console.log(`browserslist-config: Found config files at: ${foundConfig.join(', ')}`)
   process.exit(0)
 }
 

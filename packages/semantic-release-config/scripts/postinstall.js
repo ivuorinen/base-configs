@@ -7,15 +7,9 @@ const checkConfig = require('@ivuorinen/config-checker')
 const foundConfig = checkConfig('release')
 
 if (foundConfig.length > 0) {
-  console.log(
-    'semantic-release-config: Found existing semantic-release config file, skipping creation.'
-  )
-  console.log(
-    'semantic-release-config: If you want to create a new config file, please remove the existing one.'
-  )
-  console.log(
-    `semantic-release-config: Found config files at: ${foundConfig.join(', ')}`
-  )
+  console.log('semantic-release-config: Found existing semantic-release config file, skipping creation.')
+  console.log('semantic-release-config: If you want to create a new config file, please remove the existing one.')
+  console.log(`semantic-release-config: Found config files at: ${foundConfig.join(', ')}`)
   process.exit(0)
 }
 
