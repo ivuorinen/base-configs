@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "@ivuorinen/commitlint-config"
-  ]
+  "extends": ["@ivuorinen/commitlint-config"]
 }

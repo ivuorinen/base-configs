@@ -1,9 +1,7 @@
-const config = require('@ivuorinen/prettier-config')
+const config = require('@ivuorinen/prettier-config/index.js')
 
 module.exports = {
   ...config,
-  editorconfig: true,
   printWidth: 80,
-  proseWrap: "always"
-};
-
+  proseWrap: 'always'
+}
