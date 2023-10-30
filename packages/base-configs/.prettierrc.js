@@ -1,6 +1,6 @@
-import config from "@ivuorinen/prettier-config";
+const config = require('@ivuorinen/prettier-config')
 
-export default {
+module.exports = {
   ...config,
   editorconfig: true,
   printWidth: 80,
