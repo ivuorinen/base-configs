@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/browserslist-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ivuorinen's shareable configuration for Browserslist.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -36,7 +36,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.0",
+    "@ivuorinen/config-checker": "^1.1.1",
     "browserslist": "4.22.1"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"

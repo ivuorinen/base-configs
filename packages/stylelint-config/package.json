@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/stylelint-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ivuorinen's shareable configuration for stylelint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -37,7 +37,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.0",
+    "@ivuorinen/config-checker": "^1.1.1",
     "postcss": "^8.4.2",
     "stylelint": "15.11.0",
     "stylelint-config-recommended-scss": "13.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/eslint-config",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "ivuorinen's shareable configuration for ESLint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -36,7 +36,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.0",
+    "@ivuorinen/config-checker": "^1.1.1",
     "eslint": "8.52.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.29.0",

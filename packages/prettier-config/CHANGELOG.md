@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.0...@ivuorinen/prettier-config@0.2.1) (2023-10-30)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier to v3 ([#58](https://github.com/ivuorinen/base-configs/issues/58)) ([15e815a](https://github.com/ivuorinen/base-configs/commit/15e815a53d46bb369cb2d7c0eb7b54474245afee))
+
 # [0.2.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.1.2...@ivuorinen/prettier-config@0.2.0) (2023-10-25)
 
 ### Features
