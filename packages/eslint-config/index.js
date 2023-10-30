@@ -7,11 +7,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: [
-    'plugin:promise/recommended',
-    'plugin:sonarjs/recommended',
-    'standard'
-  ],
+  extends: ['plugin:promise/recommended', 'plugin:sonarjs/recommended', 'standard'],
   parserOptions: {
     ecmaVersion: 12
   }

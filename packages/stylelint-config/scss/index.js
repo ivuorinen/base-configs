@@ -19,10 +19,7 @@ module.exports = {
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/dollar-variable-pattern': '^[a-z][a-z-\\d]*$',
     'scss/media-feature-value-dollar-variable': null,
-    'scss/no-duplicate-dollar-variables': [
-      null,
-      { ignoreInsideAtRules: ['if', 'mixin'] }
-    ],
+    'scss/no-duplicate-dollar-variables': [null, { ignoreInsideAtRules: ['if', 'mixin'] }],
     'scss/no-duplicate-mixins': true,
     'scss/operator-no-newline-after': true,
     'scss/operator-no-newline-before': true,
