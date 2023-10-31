@@ -6,7 +6,7 @@ Check for existence of common configuration files in usually used locations.
 
 ## Installation
 
-Install `this package` as a _`dependencies`_:
+Install `this package` as a _`dependency`_:
 
 ```sh
 # npm
@@ -18,19 +18,99 @@ yarn add @ivuorinen/config-checker
 
 ## Usage
 
+This package is intended to be used in lifecycle events of other packages.
+
+Configuration packages located in this repository use this tool to check for existence of configuration files, and if they exist, they will not create new ones.
+
+### Real world example
+
+For commitlint-config you can find the usage in the [commitlint-config postinstall.js][commitlint-postinstall-link] file.
+
+Here's a snippet from the file:
+
 ```js
-const configChecker = require('@ivuorinen/config-checker')
+const process = require('process')
+const checkConfig = require('@ivuorinen/config-checker')
+const foundConfig = checkConfig('commitlint')
 
-// Check for existance of configuration files.
-// Module name for Eslint would be 'eslint' for example.
-const configFiles = configChecker('module-name')
-
-if (configFiles.length > 0) {
-  console.log('Found configuration files', configFiles)
-} else {
-  console.log('No configuration files found')
+if (foundConfig.length > 0) {
+  console.log('commitlint-config: Found existing commitlint config file, skipping creation.')
+  console.log('commitlint-config: If you want to create a new config file, please remove the existing one.')
+  console.log(`commitlint-config: Found config files at: ${foundConfig.join(', ')}`)
+  process.exit(0)
 }
 ```
+
+### Locations scanned
+
+| Searched configuration files        |
+| ----------------------------------- |
+| `[module name]`                     |
+| `[module name]`rc                   |
+| `[module name]`rc.json              |
+| `[module name]`rc.yaml              |
+| `[module name]`rc.yml               |
+| `[module name]`rc.js                |
+| `[module name]`rc.ts                |
+| `[module name]`rc.mjs               |
+| `[module name]`rc.cjs               |
+| `[module name]`.jsonc               |
+| `[module name]`.yaml                |
+| `[module name]`.json                |
+| `[module name]`.config.js           |
+| `[module name]`.config.ts           |
+| `[module name]`.config.mjs          |
+| `[module name]`.config.cjs          |
+| .`[module name]`                    |
+| .`[module name]`rc                  |
+| .`[module name]`rc.json             |
+| .`[module name]`rc.yaml             |
+| .`[module name]`rc.yml              |
+| .`[module name]`rc.js               |
+| .`[module name]`rc.ts               |
+| .`[module name]`rc.mjs              |
+| .`[module name]`rc.cjs              |
+| .`[module name]`.jsonc              |
+| .`[module name]`.yaml               |
+| .`[module name]`.json               |
+| .`[module name]`.config.js          |
+| .`[module name]`.config.ts          |
+| .`[module name]`.config.mjs         |
+| .`[module name]`.config.cjs         |
+| .config/`[module name]`             |
+| .config/`[module name]`rc           |
+| .config/`[module name]`rc.json      |
+| .config/`[module name]`rc.yaml      |
+| .config/`[module name]`rc.yml       |
+| .config/`[module name]`rc.js        |
+| .config/`[module name]`rc.ts        |
+| .config/`[module name]`rc.mjs       |
+| .config/`[module name]`rc.cjs       |
+| .config/`[module name]`.jsonc       |
+| .config/`[module name]`.yaml        |
+| .config/`[module name]`.json        |
+| .config/`[module name]`.config.js   |
+| .config/`[module name]`.config.ts   |
+| .config/`[module name]`.config.mjs  |
+| .config/`[module name]`.config.cjs  |
+| .config/.`[module name]`            |
+| .config/.`[module name]`rc          |
+| .config/.`[module name]`rc.json     |
+| .config/.`[module name]`rc.yaml     |
+| .config/.`[module name]`rc.yml      |
+| .config/.`[module name]`rc.js       |
+| .config/.`[module name]`rc.ts       |
+| .config/.`[module name]`rc.mjs      |
+| .config/.`[module name]`rc.cjs      |
+| .config/.`[module name]`.jsonc      |
+| .config/.`[module name]`.yaml       |
+| .config/.`[module name]`.json       |
+| .config/.`[module name]`.config.js  |
+| .config/.`[module name]`.config.ts  |
+| .config/.`[module name]`.config.mjs |
+| .config/.`[module name]`.config.cjs |
+
+This list has been generated using `npm run generate-table`.
 
 ## Contributing
 
@@ -54,3 +134,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [pull-request-link]: https://github.com/ivuorinen/base-configs/pulls
 [style-badge]: https://img.shields.io/badge/code_style-ivuorinen%E2%80%99s-663399.svg?labelColor=292a44&style=flat-square
 [style-link]: https://github.com/ivuorinen/base-configs
+[commitlint-postinstall-link]: https://github.com/ivuorinen/base-configs/blob/main/packages/commitlint-config/scripts/postinstall.js
