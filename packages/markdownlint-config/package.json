@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/markdownlint-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ivuorinen's shareable configuration for markdownlint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -36,7 +36,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.1",
+    "@ivuorinen/config-checker": "^1.1.2",
     "markdownlint-cli": "0.37.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
