@@ -554,10 +554,10 @@ eslint-plugin-promise@6.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-6.1.1.tgz#269a3e2772f62875661220631bd4dafcb4083816"
   integrity sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==
 
-eslint-plugin-sonarjs@0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.21.0.tgz#1917f4d3de0ae72495a594142f51c1576f82e2c7"
-  integrity sha512-oezUDfFT5S6j3rQheZ4DLPrbetPmMS7zHIKWGHr0CM3g5JgyZroz1FpIKa4jV83NsGpmgIeagpokWDKIJzRQmw==
+eslint-plugin-sonarjs@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.22.0.tgz#bf8236a50def4d02d1e4adedef0cca1810041614"
+  integrity sha512-LJz+TCosMOBLkbAsNk6Q1lCgmK6qNO5RCqtOAle1DCnqqnmxoSTPHakZ1R7Gcnjhw5n7VDcAwuqefmpd4XXPLQ==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
