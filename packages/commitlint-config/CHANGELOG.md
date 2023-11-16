@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.5...@ivuorinen/commitlint-config@0.2.6) (2023-11-16)
+
+### Bug Fixes
+
+- **deps:** update dependency @commitlint/cli to v18.4.1 ([10bd9c0](https://github.com/ivuorinen/base-configs/commit/10bd9c035af70011441793248d23736d3b1a2e02))
+
 ## [0.2.5](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.4...@ivuorinen/commitlint-config@0.2.5) (2023-11-14)
 
 ### Bug Fixes
