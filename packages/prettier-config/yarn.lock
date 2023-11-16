@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@ivuorinen/config-checker@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.0.tgz#73a996445a917627cb558ea69f616978ff97da9d"
-  integrity sha512-YHQSF2yt4YZM0W9jdFXdPUB4X1AicweDJWSJtFw58GVI4+wI8+CJtoKL/Dmbn8F3B6H6gngQHwzENqw80Zsskg==
+"@ivuorinen/config-checker@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.2.tgz#1a7c4dd683129532998f5b682cd95e4daf176acf"
+  integrity sha512-Gb1o2jM0ZqKUa0UTk6yTDbEnC9xGT104EzL0q4x0dW8fLFFQNTp4NrWmpUS90He5m0GNcN5QBo7QPZdGlwUz1Q==
 
-prettier@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
-  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
+prettier@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
+  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
