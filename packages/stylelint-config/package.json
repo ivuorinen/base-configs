@@ -39,11 +39,11 @@
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.2",
     "postcss": "^8.4.2",
-    "stylelint": "16.0.1",
+    "stylelint": "16.0.2",
     "stylelint-config-recommended-scss": "13.1.0",
     "stylelint-config-standard": "35.0.0",
     "stylelint-order": "6.0.4",
-    "stylelint-scss": "5.3.1"
+    "stylelint-scss": "5.3.2"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
