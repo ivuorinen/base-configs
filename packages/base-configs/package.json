@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "1.1.22",
+  "version": "1.1.23",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
     "name": "Ismo Vuorinen",
@@ -32,6 +32,6 @@
     "@ivuorinen/eslint-config": "^0.4.7",
     "@ivuorinen/markdownlint-config": "^0.2.3",
     "@ivuorinen/prettier-config": "^0.2.4",
-    "@ivuorinen/semantic-release-config": "^0.2.8"
+    "@ivuorinen/semantic-release-config": "^0.2.9"
   }
 }
