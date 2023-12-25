@@ -63,7 +63,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-unicorn": "^50.0.0",
-    "lerna": "^7.0.0",
+    "lerna": "^8.0.0",
     "lerna-update-wizard": "^1.1.2",
     "markdownlint-cli": "^0.38.0",
     "prettier": "^3.0.0",
