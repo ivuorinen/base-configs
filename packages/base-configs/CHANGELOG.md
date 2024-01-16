@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.35](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.34...@ivuorinen/base-configs@1.1.35) (2024-01-16)
+
+**Note:** Version bump only for package @ivuorinen/base-configs
+
 ## [1.1.34](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.33...@ivuorinen/base-configs@1.1.34) (2024-01-16)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
