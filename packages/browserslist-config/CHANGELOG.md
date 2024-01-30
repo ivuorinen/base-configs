@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.2.3...@ivuorinen/browserslist-config@0.2.4) (2024-01-30)
+
+### Bug Fixes
+
+- **deps:** update dependency browserslist to v4.22.3 ([82ac478](https://github.com/ivuorinen/base-configs/commit/82ac478fe2e08d04685e6d33951461f14824d6f2))
+
 ## [0.2.3](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.2.2...@ivuorinen/browserslist-config@0.2.3) (2023-12-07)
 
 ### Bug Fixes
