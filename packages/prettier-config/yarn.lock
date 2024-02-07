@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.2.tgz#1a7c4dd683129532998f5b682cd95e4daf176acf"
   integrity sha512-Gb1o2jM0ZqKUa0UTk6yTDbEnC9xGT104EzL0q4x0dW8fLFFQNTp4NrWmpUS90He5m0GNcN5QBo7QPZdGlwUz1Q==
 
-prettier@3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.4.tgz#4723cadeac2ce7c9227de758e5ff9b14e075f283"
-  integrity sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==
+prettier@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
+  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
