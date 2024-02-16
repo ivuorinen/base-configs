@@ -41,10 +41,10 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jest": "27.6.3",
+    "eslint-plugin-jest": "27.8.0",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-sonarjs": "0.23.0"
+    "eslint-plugin-sonarjs": "0.24.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
