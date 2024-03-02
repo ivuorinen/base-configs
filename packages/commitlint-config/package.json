@@ -35,8 +35,8 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "@commitlint/cli": "18.6.1",
-    "@commitlint/config-conventional": "18.6.2",
+    "@commitlint/cli": "19.0.3",
+    "@commitlint/config-conventional": "19.0.3",
     "@ivuorinen/config-checker": "^1.1.2"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
