@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.15](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.14...@ivuorinen/commitlint-config@0.2.15) (2024-03-17)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo to v19.1.0 ([#202](https://github.com/ivuorinen/base-configs/issues/202)) ([53929de](https://github.com/ivuorinen/base-configs/commit/53929deedfe95666bf9a31b80a87baed34f5d99c))
+
 ## [0.2.14](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.13...@ivuorinen/commitlint-config@0.2.14) (2024-03-02)
 
 **Note:** Version bump only for package @ivuorinen/commitlint-config
