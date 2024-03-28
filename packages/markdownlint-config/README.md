@@ -1,8 +1,6 @@
 # @ivuorinen/markdownlint-config <!-- omit in toc -->
 
-[![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license-link]
-[![code style][style-badge]][style-link]
+[![npm package][npm-badge]][npm-link] [![license MIT][license-badge]][license-link] [![code style][style-badge]][style-link]
 
 > ivuorinen's shareable configuration for [`MarkdownLint`][markdownlint-link].
 

@@ -1,8 +1,6 @@
 # @ivuorinen/stylelint-config <!-- omit in toc -->
 
-[![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license-link]
-[![ivuorinen's Code Style][style-badge]][style-link]
+[![npm package][npm-badge]][npm-link] [![license MIT][license-badge]][license-link] [![ivuorinen's Code Style][style-badge]][style-link]
 
 > ivuorinen's shareable configuration for [`stylelint`][stylelint-link].
 
@@ -74,7 +72,6 @@ The defined rules can be modified by adding other configurations, plugins or cus
     ]
   }
 }
-
 ```
 
 ## Documentations

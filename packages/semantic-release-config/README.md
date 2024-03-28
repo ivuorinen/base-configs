@@ -1,8 +1,6 @@
 # @ivuorinen/semantic-release-config <!-- omit in toc -->
 
-[![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license-link]
-[![ivuorinen's Code Style][style-badge]][style-link]
+[![npm package][npm-badge]][npm-link] [![license MIT][license-badge]][license-link] [![ivuorinen's Code Style][style-badge]][style-link]
 
 > ivuorinen's shareable configuration for [`semantic-release`][semantic-release-link].
 
@@ -82,8 +80,8 @@ jobs:
         uses: actions/setup-node@v2.1.5
         with:
           always-auth: true
-          node-version: 14
-          registry-url: "https://registry.npmjs.org"
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies with Caching
         uses: bahmutov/npm-install@v1.6.0

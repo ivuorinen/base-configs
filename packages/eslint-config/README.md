@@ -1,8 +1,6 @@
 # @ivuorinen/eslint-config <!-- omit in toc -->
 
-[![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license-link]
-[![ivuorinen's Code Style][style-badge]][style-link]
+[![npm package][npm-badge]][npm-link] [![license MIT][license-badge]][license-link] [![ivuorinen's Code Style][style-badge]][style-link]
 
 > ivuorinen's shareable configuration for [`ESLint`][eslint-link].
 
@@ -76,5 +74,4 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [pull-request-link]: https://github.com/ivuorinen/base-configs/pulls
 [style-badge]: https://img.shields.io/badge/code_style-ivuorinen%E2%80%99s-663399.svg?labelColor=292a44&style=flat-square
 [style-link]: https://github.com/ivuorinen/base-configs
-
 [jest-link]: https://jestjs.io

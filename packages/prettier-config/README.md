@@ -1,8 +1,6 @@
 # @ivuorinen/prettier-config <!-- omit in toc -->
 
-[![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license-link]
-[![ivuorinen's Code Style][style-badge]][style-link]
+[![npm package][npm-badge]][npm-link] [![license MIT][license-badge]][license-link] [![ivuorinen's Code Style][style-badge]][style-link]
 
 > ivuorinen's shareable configuration for [`Prettier`][prettier-link].
 
@@ -37,8 +35,7 @@ After installing it, a _`.prettierrc.json`_ file will be created automatically i
 > ```js
 > module.exports = {
 >   ...require('@ivuorinen/prettier-config'),
->
->   // Add custom options bellow:
+>   // Add custom options below:
 >   semi: true
 > }
 > ```
