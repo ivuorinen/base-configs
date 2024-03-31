@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.20](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.19...@ivuorinen/eslint-config@0.4.20) (2024-03-31)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-sonarjs to v0.25.0 ([#215](https://github.com/ivuorinen/base-configs/issues/215)) ([21fddab](https://github.com/ivuorinen/base-configs/commit/21fddabb15068ec11f16ecc34097a9c6ac3f9e95))
+
 ## [0.4.19](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.18...@ivuorinen/eslint-config@0.4.19) (2024-02-27)
 
 ### Bug Fixes
