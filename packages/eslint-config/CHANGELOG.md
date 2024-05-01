@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.28](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.27...@ivuorinen/eslint-config@0.4.28) (2024-05-01)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jest to v28.3.0 ([#233](https://github.com/ivuorinen/base-configs/issues/233)) ([8d50271](https://github.com/ivuorinen/base-configs/commit/8d5027144dccd573010432373ad4c7f085d6f53a))
+
 ## [0.4.27](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.26...@ivuorinen/eslint-config@0.4.27) (2024-04-28)
 
 ### Bug Fixes
