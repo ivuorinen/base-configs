@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/config-checker@1.1.2...@ivuorinen/config-checker@1.1.3) (2024-05-05)
+
+### Bug Fixes
+
+- add an initial value to "reduce()" call ([#238](https://github.com/ivuorinen/base-configs/issues/238)) ([52372db](https://github.com/ivuorinen/base-configs/commit/52372dbe371bae56b44d79e2150b61200b071a1f))
+
 ## [1.1.2](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/config-checker@1.1.1...@ivuorinen/config-checker@1.1.2) (2023-10-31)
 
 **Note:** Version bump only for package @ivuorinen/config-checker

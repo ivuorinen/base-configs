@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.23](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.2.22...@ivuorinen/stylelint-config@0.2.23) (2024-05-05)
+
+**Note:** Version bump only for package @ivuorinen/stylelint-config
+
 ## [0.2.22](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.2.21...@ivuorinen/stylelint-config@0.2.22) (2024-05-05)
 
 ### Bug Fixes
