@@ -38,13 +38,13 @@
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.3",
     "eslint": "9.4.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard": "17.1.0",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jest": "28.5.0",
-    "eslint-plugin-n": "17.7.0",
-    "eslint-plugin-promise": "6.2.0",
-    "eslint-plugin-sonarjs": "1.0.3"
+    "eslint-config-prettier": "^9",
+    "eslint-config-standard": "^17",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jest": "^28",
+    "eslint-plugin-n": "^17",
+    "eslint-plugin-promise": "^6",
+    "eslint-plugin-sonarjs": "^1"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
