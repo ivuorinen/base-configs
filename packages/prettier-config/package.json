@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/prettier-config",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "ivuorinen's shareable configuration for Prettier.",
   "author": {
     "name": "Ismo Vuorinen",
