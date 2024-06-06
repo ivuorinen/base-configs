@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.12](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.11...@ivuorinen/prettier-config@0.2.12) (2024-06-06)
+
+### Bug Fixes
+
+- **deps:** update devdependencies (patch) ([ed302ac](https://github.com/ivuorinen/base-configs/commit/ed302acd4e4671eb21e20c3fbb053e6c989c203b))
+
 ## [0.2.11](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.10...@ivuorinen/prettier-config@0.2.11) (2024-06-05)
 
 ### Bug Fixes
