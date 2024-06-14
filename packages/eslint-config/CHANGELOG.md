@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.42](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.41...@ivuorinen/eslint-config@0.4.42) (2024-06-14)
+
+**Note:** Version bump only for package @ivuorinen/eslint-config
+
 ## [0.4.41](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.40...@ivuorinen/eslint-config@0.4.41) (2024-06-04)
 
 **Note:** Version bump only for package @ivuorinen/eslint-config
