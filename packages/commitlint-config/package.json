@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/commitlint-config",
-  "version": "0.2.22",
+  "version": "0.2.23",
   "description": "ivuorinen's shareable configuration for commitlint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -37,7 +37,7 @@
   "dependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@ivuorinen/config-checker": "^1.1.3",
+    "@ivuorinen/config-checker": "^1.1.4",
     "@types/node": "*",
     "typescript": ">=4"
   },

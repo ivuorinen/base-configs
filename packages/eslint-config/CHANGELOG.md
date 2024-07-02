@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.44 (2024-07-02)
+
+### Bug Fixes
+
+- **workflows:** commit lint fix ([3cc07cf](https://github.com/ivuorinen/base-configs/commit/3cc07cf3ffd8743860a07bb85aa4d275bb63094e))
+
 ## [0.4.43](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.42...@ivuorinen/eslint-config@0.4.43) (2024-06-18)
 
 ### Bug Fixes

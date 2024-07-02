@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.9 (2024-07-02)
+
+### Bug Fixes
+
+- **workflows:** commit lint fix ([3cc07cf](https://github.com/ivuorinen/base-configs/commit/3cc07cf3ffd8743860a07bb85aa4d275bb63094e))
+
 ## [0.2.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/markdownlint-config@0.2.7...@ivuorinen/markdownlint-config@0.2.8) (2024-06-14)
 
 **Note:** Version bump only for package @ivuorinen/markdownlint-config

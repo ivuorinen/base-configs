@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.23 (2024-07-02)
+
+### Bug Fixes
+
+- **workflows:** commit lint fix ([3cc07cf](https://github.com/ivuorinen/base-configs/commit/3cc07cf3ffd8743860a07bb85aa4d275bb63094e))
+
 ## [0.2.22](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.21...@ivuorinen/commitlint-config@0.2.22) (2024-06-04)
 
 **Note:** Version bump only for package @ivuorinen/commitlint-config
