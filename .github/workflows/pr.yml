@@ -1,0 +1,52 @@
+---
+name: PR Actions
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  pr:
+    name: PR Actions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4.0.2
+        with:
+          always-auth: true
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@ivuorinen'
+
+      - name: Cache Node Modules
+        uses: actions/cache@v4.0.2
+        id: cache
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
+
+      - name: Yarn Lock Changes
+        # Please use `main` as version before the stable release will be published as `v1`.
+        uses: Simek/yarn-lock-changes@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Optional inputs, can be deleted safely if you are happy with default values.
+          collapsibleThreshold: 25
+          failOnDowngrade: false
+          path: yarn.lock
+          updateComment: true
+          groupByType: false
