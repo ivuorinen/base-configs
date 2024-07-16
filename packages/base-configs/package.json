@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "1.1.98",
+  "version": "1.1.99",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
     "name": "Ismo Vuorinen",
@@ -29,7 +29,7 @@
   "dependencies": {
     "@ivuorinen/browserslist-config": "^0.2.9",
     "@ivuorinen/commitlint-config": "^0.2.23",
-    "@ivuorinen/eslint-config": "^0.4.44",
+    "@ivuorinen/eslint-config": "^0.4.45",
     "@ivuorinen/markdownlint-config": "^0.2.9",
     "@ivuorinen/prettier-config": "^0.2.15",
     "@ivuorinen/semantic-release-config": "^0.2.23",
