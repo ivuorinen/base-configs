@@ -43,7 +43,7 @@
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^28",
     "eslint-plugin-n": "^17",
-    "eslint-plugin-promise": "^6",
+    "eslint-plugin-promise": "^7.0.0",
     "eslint-plugin-sonarjs": "^1"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
