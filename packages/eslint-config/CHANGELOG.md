@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.47](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.46...@ivuorinen/eslint-config@0.4.47) (2024-07-29)
+
+### Bug Fixes
+
+- **deps:** update eslint to 9.8.0 ([#281](https://github.com/ivuorinen/base-configs/issues/281)) ([72b0871](https://github.com/ivuorinen/base-configs/commit/72b0871beb452e408b460e5d2804085affef9dc4))
+
 ## [0.4.46](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.45...@ivuorinen/eslint-config@0.4.46) (2024-07-27)
 
 ### Bug Fixes
