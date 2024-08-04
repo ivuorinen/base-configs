@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
-    "browserslist": "4.23.2"
+    "browserslist": "4.23.3"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
