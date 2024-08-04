@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/browserslist-config",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "ivuorinen's shareable configuration for Browserslist.",
   "author": {
     "name": "Ismo Vuorinen",
