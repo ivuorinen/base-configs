@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.24](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.23...@ivuorinen/commitlint-config@0.2.24) (2024-08-10)
+
+### Bug Fixes
+
+- **deps:** update @commitlint/cli to 19.4.0 ([#285](https://github.com/ivuorinen/base-configs/issues/285)) ([4080152](https://github.com/ivuorinen/base-configs/commit/4080152296ed9febc2c6dbf4cc41183a9ce319f8))
+
 ## 0.2.23 (2024-07-02)
 
 ### Bug Fixes
