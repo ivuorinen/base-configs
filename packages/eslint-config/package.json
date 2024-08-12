@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
-    "eslint": "9.8.0",
+    "eslint": "9.9.0",
     "eslint-config-prettier": "^9",
     "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
