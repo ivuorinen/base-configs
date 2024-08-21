@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.16...@ivuorinen/prettier-config@0.3.0) (2024-08-21)
+
+- feat!: module & commonjs in prettier ([12ea368](https://github.com/ivuorinen/base-configs/commit/12ea3688ad61ea5b21762225b9b41b30a1995198))
+- feat!: module & commonjs in prettier ([8d3dbd8](https://github.com/ivuorinen/base-configs/commit/8d3dbd89e8dbaaa2df12eb9900fdf0cfa566a65c))
+
+### BREAKING CHANGES
+
+- support module, and commonjs types
+- support module, and commonjs types
+
 ## [0.2.16](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.15...@ivuorinen/prettier-config@0.2.16) (2024-07-16)
 
 ### Bug Fixes

@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/config-checker@1.1.4...@ivuorinen/config-checker@1.1.5) (2024-08-21)
+
+**Note:** Version bump only for package @ivuorinen/config-checker
+
 ## 1.1.4 (2024-07-02)
 
 ### Bug Fixes

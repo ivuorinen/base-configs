@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/semantic-release-config",
-  "version": "0.2.24",
+  "version": "0.3.0",
   "description": "ivuorinen's shareable configuration for semantic-release.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -42,7 +42,7 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.4",
+    "@ivuorinen/config-checker": "^1.1.5",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "semantic-release": "24.1.0"

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.48...@ivuorinen/eslint-config@0.5.0) (2024-08-21)
+
+- feat!: upgrade to eslint 9, update configs ([ad9ed82](https://github.com/ivuorinen/base-configs/commit/ad9ed820d606e7fe484b7b5f553b5dc13277f037))
+
+### BREAKING CHANGES
+
+- this changes the configuration format, also adds support for module, and commonjs types
+
 ## [0.4.48](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/eslint-config@0.4.47...@ivuorinen/eslint-config@0.4.48) (2024-08-12)
 
 ### Bug Fixes

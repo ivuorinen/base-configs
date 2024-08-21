@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/markdownlint-config@0.2.9...@ivuorinen/markdownlint-config@0.3.0) (2024-08-21)
+
+- feat!: module & commonjs in markdownlint ([ca479de](https://github.com/ivuorinen/base-configs/commit/ca479deb20f65f048f128b284c2f178ca9e90ea2))
+
+### BREAKING CHANGES
+
+- support module, and commonjs types
+
 ## 0.2.9 (2024-07-02)
 
 ### Bug Fixes

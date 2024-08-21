@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.106...@ivuorinen/base-configs@2.0.0) (2024-08-21)
+
+- feat!: module & commonjs in base-configs ([02e4f47](https://github.com/ivuorinen/base-configs/commit/02e4f4779c79e5e179b3fb31b9a642d9ec96f862))
+
+### BREAKING CHANGES
+
+- support module, and commonjs types
+
 ## [1.1.106](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.105...@ivuorinen/base-configs@1.1.106) (2024-08-21)
 
 **Note:** Version bump only for package @ivuorinen/base-configs

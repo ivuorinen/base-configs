@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.2.24...@ivuorinen/semantic-release-config@0.3.0) (2024-08-21)
+
+- feat!: module & commonjs in semantic-release ([57fbf1f](https://github.com/ivuorinen/base-configs/commit/57fbf1fd1f280063da2a9c2ac0e1f994836c4582))
+
+### BREAKING CHANGES
+
+- support module, and commonjs types
+
 ## [0.2.24](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.2.23...@ivuorinen/semantic-release-config@0.2.24) (2024-08-21)
 
 ### Bug Fixes
