@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "@ivuorinen/stylelint-config/css"
-  ]
+  "extends": ["@ivuorinen/stylelint-config/css"]
 }

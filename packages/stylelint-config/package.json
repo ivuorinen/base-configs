@@ -1,6 +1,7 @@
 {
   "name": "@ivuorinen/stylelint-config",
   "version": "0.2.37",
+  "type": "module",
   "description": "ivuorinen's shareable configuration for stylelint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -12,10 +13,26 @@
   "engines": {
     "node": ">= 18"
   },
+  "main": "css/index.cjs",
+  "module": "css/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./css/index.mjs",
+      "require": "./css/index.cjs"
+    },
+    "./css": {
+      "import": "./scss/index.mjs",
+      "require": "./scss/index.cjs"
+    },
+    "./scss": {
+      "import": "./scss/index.mjs",
+      "require": "./scss/index.cjs"
+    }
+  },
   "files": [
-    "css/index.js",
-    "scripts/*",
-    "scss/index.js"
+    "css/*",
+    "scss/*",
+    "scripts/*"
   ],
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/stylelint-config#readme",
   "keywords": [
@@ -25,7 +42,6 @@
     "ivuorinen"
   ],
   "license": "MIT",
-  "main": "css/index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -34,7 +50,7 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
