@@ -2,6 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
+// noinspection NpmUsedModulesInstalled
 const process = require('process')
 const checkConfig = require('@ivuorinen/config-checker')
 const foundConfig = checkConfig('eslint')
@@ -13,11 +14,21 @@ if (foundConfig.length > 0) {
   process.exit(0)
 }
 
-const filePath = path.join(process.env.INIT_CWD, '.eslintrc.json')
-const fileConfigObject = {
-  extends: ['@ivuorinen']
-}
+const filePath = path.join(process.env.INIT_CWD, 'eslint.config.mjs')
+const fileConfig = `import ivuorinenConfig from '@ivuorinen/eslint-config';
+
+export default [
+  ...ivuorinenConfig,
+
+  // your modifications
+  {
+    rules: {
+      // "no-unused-vars": "warn"
+    }
+  }
+];
+`
 
 if (!fs.existsSync(filePath)) {
-  fs.writeFileSync(filePath, JSON.stringify(fileConfigObject, undefined, 2))
+  fs.writeFileSync(filePath, fileConfig)
 }

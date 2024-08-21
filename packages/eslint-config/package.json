@@ -12,8 +12,24 @@
   "engines": {
     "node": ">=18"
   },
+  "type": "module",
+  "main": "index.cjs",
+  "module": "wrapper.mjs",
+  "exports": {
+    ".": {
+      "import": "./wrapper.mjs",
+      "require": "./index.cjs"
+    },
+    "./jest": {
+      "import": "./wrapper-jest.mjs",
+      "require": "./jest.cjs"
+    }
+  },
   "files": [
-    "index.js",
+    "index.cjs",
+    "jest.cjs",
+    "wrapper.mjs",
+    "wrapper-jest.mjs",
     "scripts/*"
   ],
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/eslint-config#readme",
@@ -24,7 +40,6 @@
     "ivuorinen"
   ],
   "license": "MIT",
-  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -33,18 +48,20 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
+    "@eslint/js": "^9.9.0",
     "@ivuorinen/config-checker": "^1.1.4",
-    "eslint": "9.9.0",
+    "eslint": "^9",
     "eslint-config-prettier": "^9",
     "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^28",
     "eslint-plugin-n": "^17",
-    "eslint-plugin-promise": "^7.0.0",
-    "eslint-plugin-sonarjs": "^1"
+    "eslint-plugin-promise": "^7",
+    "eslint-plugin-sonarjs": "^1",
+    "globals": "^15.9.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

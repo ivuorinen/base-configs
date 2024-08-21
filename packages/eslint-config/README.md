@@ -68,7 +68,7 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399
-[license-link]: ./LICENSE
+[license-link]: ./LICENSE.md
 [npm-badge]: https://img.shields.io/npm/v/@ivuorinen/eslint-config?style=flat-square&labelColor=292a44&color=663399
 [npm-link]: https://www.npmjs.com/package/@ivuorinen/eslint-config
 [pull-request-link]: https://github.com/ivuorinen/base-configs/pulls
