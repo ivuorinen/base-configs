@@ -1,6 +1,7 @@
 {
   "name": "@ivuorinen/prettier-config",
   "version": "0.2.16",
+  "type": "module",
   "description": "ivuorinen's shareable configuration for Prettier.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -33,7 +34,7 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
