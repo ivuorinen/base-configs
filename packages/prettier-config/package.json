@@ -13,8 +13,14 @@
   "engines": {
     "node": ">= 18"
   },
+  "main": "index.cjs",
+  "module": "wrapper.mjs",
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.cjs"
+  },
   "files": [
-    "index.js",
+    "index.cjs",
     "scripts/*"
   ],
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/prettier-config#readme",
@@ -25,7 +31,6 @@
     "prettier"
   ],
   "license": "MIT",
-  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
