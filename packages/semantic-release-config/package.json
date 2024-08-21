@@ -13,7 +13,7 @@
     "node": ">= 18"
   },
   "files": [
-    "index.js",
+    "index.cjs",
     "scripts/*"
   ],
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/semantic-release-config#readme",
@@ -24,7 +24,13 @@
     "ivuorinen"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.cjs",
+  "module": "wrapper.mjs",
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.cjs"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -33,7 +39,7 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
