@@ -2,6 +2,7 @@
   "name": "@ivuorinen/browserslist-config",
   "version": "0.2.10",
   "description": "ivuorinen's shareable configuration for Browserslist.",
+  "type": "module",
   "author": {
     "name": "Ismo Vuorinen",
     "url": "https://github.com/ivuorinen"
@@ -13,9 +14,16 @@
     "node": ">=18"
   },
   "files": [
-    "index.js",
+    "index.cjs",
+    "wrapper.mjs",
     "scripts/*"
   ],
+  "main": "index.cjs",
+  "module": "wrapper.mjs",
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.cjs"
+  },
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/browserslist-config#readme",
   "keywords": [
     "browserslist-config",
@@ -24,7 +32,6 @@
     "ivuorinen"
   ],
   "license": "MIT",
-  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -33,7 +40,7 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^1.1.4",
