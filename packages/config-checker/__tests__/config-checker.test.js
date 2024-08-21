@@ -13,9 +13,7 @@ const configs = configChecker('test', path.join(__dirname, 'fixtures'))
  * @param {string} file - The file to check for.
  * @returns {boolean} - True if the array contains the file.
  */
-function arrayContains(configs = [], file = '') {
-  return configs.some(config => config === file)
-}
+const arrayContains = (configs = [], file = '') => configs.some(config => config === file)
 
 assert.ok(arrayContains(configs, '.testrc'))
 assert.ok(arrayContains(configs, '.config/testrc.ts'))

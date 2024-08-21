@@ -25,7 +25,7 @@ Check the _`README`_ of each package in the [`packages`][packages-link] director
 ## Available Configurations
 
 | Tool                                      | Package                                            | Version                                                                               |
-| ----------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
+|-------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Browserslist][browserslist-link]         | [@ivuorinen/browserslist-config][pkg-browserlist]  | [![@ivuorinen/browserslist-config][browserslist-badge]][browserslist-npm]             |
 | [CommitLint][commitlint-link]             | [@ivuorinen/commitlint-config][pkg-commitlint]     | [![@ivuorinen/commitlint-config][commitlint-badge]][commitlint-npm]                   |
 | [ESLint][eslint-link]                     | [@ivuorinen/eslint-config][pkg-eslint]             | [![@ivuorinen/eslint-config][eslint-badge]][eslint-npm]                               |
@@ -58,13 +58,12 @@ If you are interested in helping contribute, please take a look at our [contribu
 
 ## Changelog
 
-See [CHANGELOG][changelog-link] for a human-readable history of changes.
+See CHANGELOG for a human-readable history of changes in each package own folder.
 
 ## License
 
 Distributed under the MIT License. See [LICENSE][license-link] for more information.
 
-[changelog-link]: ./CHANGELOG.md
 [contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399

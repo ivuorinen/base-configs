@@ -24,7 +24,7 @@ Configuration packages located in this repository use this tool to check for exi
 
 ### Real world example
 
-For commitlint-config you can find the usage in the [commitlint-config postinstall.js][commitlint-postinstall-link] file.
+For commitlint-config you can find the usage in the [commitlint-config postinstall.cjs][commitlint-postinstall-link] file.
 
 Here's a snippet from the file:
 
@@ -44,7 +44,7 @@ if (foundConfig.length > 0) {
 ### Locations scanned
 
 | Searched configuration files        |
-| ----------------------------------- |
+|-------------------------------------|
 | `[module name]`                     |
 | `[module name]`rc                   |
 | `[module name]`rc.json              |
@@ -122,13 +122,13 @@ See [CHANGELOG][changelog-link] for a human-readable history of changes.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md][license-link] file for details.
 
 [changelog-link]: ./CHANGELOG.md
 [contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399
-[license-link]: ./LICENSE
+[license-link]: ./LICENSE.md
 [npm-badge]: https://img.shields.io/npm/v/@ivuorinen/config-checker?style=flat-square&labelColor=292a44&color=663399
 [npm-link]: https://www.npmjs.com/package/@ivuorinen/config-checker
 [pull-request-link]: https://github.com/ivuorinen/base-configs/pulls

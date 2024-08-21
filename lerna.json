@@ -4,9 +4,7 @@
     "version": {
       "conventionalCommits": true,
       "createRelease": "github",
-      "ignoreChanges": [
-        "**/*.md"
-      ],
+      "ignoreChanges": ["**/*.md"],
       "message": "chore(release): publish",
       "yes": true
     },
@@ -16,8 +14,6 @@
     }
   },
   "npmClient": "yarn",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }

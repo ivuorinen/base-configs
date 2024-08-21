@@ -7,7 +7,7 @@ const path = require('path')
  * @param {string} moduleName - The name of the module to check for.
  * @returns {string[]} - The paths to the configuration files.
  */
-function configurationPaths(moduleName) {
+const configurationPaths = moduleName => {
   const filesPlain = [
     moduleName,
     `${moduleName}rc`,

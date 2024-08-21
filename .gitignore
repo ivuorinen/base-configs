@@ -1,15 +1,14 @@
 node_modules
-packages/**/.browserslistrc
-packages/**/.commitlintrc.json
-packages/**/.eslintrc.json
+packages/**/.*rc
+packages/**/.*rc.json
 packages/**/.markdownlint.json
-packages/**/.prettierrc.json
-packages/**/.releaserc.json
-packages/**/.stylelintrc.json
+packages/**/*.config.*
+packages/**/.*.config.*
 
 !packages/browserslist-config/.browserslistrc
 !packages/commitlint-config/.commitlintrc.json
 !packages/eslint-config/.eslintrc.json
+!packages/eslint-config/eslint.config.*
 !packages/markdownlint-config/.markdownlint.json
 !packages/prettier-config/.prettierrc.json
 !packages/release-config/.releaserc.json
