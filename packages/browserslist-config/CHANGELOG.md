@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.3.0...@ivuorinen/browserslist-config@0.3.1) (2024-08-28)
+
+**Note:** Version bump only for package @ivuorinen/browserslist-config
+
 # [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.2.10...@ivuorinen/browserslist-config@0.3.0) (2024-08-21)
 
 - feat!: module & commonjs in browserslist ([93ea840](https://github.com/ivuorinen/base-configs/commit/93ea8404064e62c720460b2d808fc9d39a00ec31))

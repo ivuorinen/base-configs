@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.3.0...@ivuorinen/commitlint-config@0.3.1) (2024-08-28)
+
+**Note:** Version bump only for package @ivuorinen/commitlint-config
+
 # [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.2.24...@ivuorinen/commitlint-config@0.3.0) (2024-08-21)
 
 - feat!: module & commonjs in commitlint ([2de156e](https://github.com/ivuorinen/base-configs/commit/2de156e2c0f474fe19d23cc2b4b9b6eaba97e258))

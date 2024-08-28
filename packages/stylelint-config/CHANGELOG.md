@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.3.0...@ivuorinen/stylelint-config@0.3.1) (2024-08-28)
+
+**Note:** Version bump only for package @ivuorinen/stylelint-config
+
 # [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.2.37...@ivuorinen/stylelint-config@0.3.0) (2024-08-21)
 
 - feat!: module & commonjs in stylelint ([e4aed31](https://github.com/ivuorinen/base-configs/commit/e4aed31ef984188923eaedf6d8cff8ab36ecf924))
