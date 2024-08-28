@@ -42,9 +42,9 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
-    "@ivuorinen/config-checker": "^1.1.5"
+    "@commitlint/cli": "^19",
+    "@commitlint/config-conventional": "^19",
+    "@ivuorinen/config-checker": "^1"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

@@ -53,13 +53,13 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.5",
-    "postcss": "^8.4.2",
-    "stylelint": "16.8.2",
-    "stylelint-config-recommended-scss": "14.1.0",
-    "stylelint-config-standard": "36.0.1",
-    "stylelint-order": "6.0.4",
-    "stylelint-scss": "6.5.0"
+    "@ivuorinen/config-checker": "^1",
+    "postcss": "^8",
+    "stylelint": "^16",
+    "stylelint-config-recommended-scss": "^14",
+    "stylelint-config-standard": "^36",
+    "stylelint-order": "^6",
+    "stylelint-scss": "^6"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

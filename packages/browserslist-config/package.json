@@ -43,8 +43,8 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.5",
-    "browserslist": "4.23.3"
+    "@ivuorinen/config-checker": "^1",
+    "browserslist": "^4"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

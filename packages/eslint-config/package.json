@@ -51,8 +51,8 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@eslint/js": "^9.9.0",
-    "@ivuorinen/config-checker": "^1.1.5",
+    "@eslint/js": "^9",
+    "@ivuorinen/config-checker": "^1",
     "eslint": "^9",
     "eslint-config-prettier": "^9",
     "eslint-config-standard": "^17",
@@ -60,8 +60,8 @@
     "eslint-plugin-jest": "^28",
     "eslint-plugin-n": "^17",
     "eslint-plugin-promise": "^7",
-    "eslint-plugin-sonarjs": "^2.0.0",
-    "globals": "^15.9.0"
+    "eslint-plugin-sonarjs": "^2",
+    "globals": "^15"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

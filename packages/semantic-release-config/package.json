@@ -42,10 +42,10 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.5",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "semantic-release": "24.1.0"
+    "@ivuorinen/config-checker": "^1",
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
+    "semantic-release": "^24"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }
