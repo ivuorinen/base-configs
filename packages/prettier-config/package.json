@@ -21,6 +21,7 @@
   },
   "files": [
     "index.cjs",
+    "wrapper.mjs",
     "scripts/*"
   ],
   "homepage": "https://github.com/ivuorinen/base-configs/tree/main/packages/prettier-config#readme",
