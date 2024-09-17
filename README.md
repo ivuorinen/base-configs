@@ -22,6 +22,20 @@ This Monorepo provides a collection of shareable configurations for building, li
 
 Check the _`README`_ of each package in the [`packages`][packages-link] directory for specific usage instructions.
 
+## Meta package
+
+All of the linting rules can be installed by running the following command:
+
+```bash
+npm i -D @ivuorinen/base-configs
+```
+
+| Package                             | Version |
+| ----------------------------------- | ------- |
+| [@ivuorinen/base-configs][meta-npm] | [![@ivuorinen/base-configs][meta-badge]][meta-npm] |
+
+You can find the meta package in [packages/base-configs](./packages/base-configs).
+
 ## Available Configurations
 
 | Tool                                      | Package                                            | Version                                                                               |
@@ -70,6 +84,8 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [license-link]: ./LICENSE
 [packages-link]: ./packages
 [pull-request-link]: https://github.com/ivuorinen/base-configs/pulls
+[meta-badge]: https://img.shields.io/npm/v/@ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399
+[meta-npm]: https://www.npmjs.com/package/@ivuorinen/base-configs
 [style-badge]: https://img.shields.io/badge/code_style-ivuorinen%E2%80%99s-663399.svg?labelColor=292a44&style=flat-square
 [style-link]: https://github.com/ivuorinen/base-configs
 [browserslist-badge]: https://img.shields.io/npm/v/@ivuorinen/browserslist-config?style=flat-square&labelColor=292a44&color=663399
