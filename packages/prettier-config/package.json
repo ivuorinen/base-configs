@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/prettier-config",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "type": "module",
   "description": "ivuorinen's shareable configuration for Prettier.",
   "author": {
@@ -43,7 +43,7 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1",
+    "@ivuorinen/config-checker": "^1.1.6",
     "prettier": "^3"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"

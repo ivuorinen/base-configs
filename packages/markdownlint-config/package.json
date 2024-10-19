@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/markdownlint-config",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "type": "module",
   "description": "ivuorinen's shareable configuration for markdownlint.",
   "author": {
@@ -37,7 +37,7 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1",
+    "@ivuorinen/config-checker": "^1.1.6",
     "markdownlint-cli": "^0.42.0"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"

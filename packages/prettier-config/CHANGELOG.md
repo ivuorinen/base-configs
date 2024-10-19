@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.3 (2024-10-19)
+
+### Bug Fixes
+
+- upgrade markdownlint-cli from 0.41.0 to 0.42.0 ([#298](https://github.com/ivuorinen/base-configs/issues/298)) ([f57190d](https://github.com/ivuorinen/base-configs/commit/f57190d55c27101f66583cc0000733b2707c1e5f))
+
 ## [0.3.2](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.3.1...@ivuorinen/prettier-config@0.3.2) (2024-09-17)
 
 ### Bug Fixes
