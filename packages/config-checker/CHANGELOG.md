@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.7 (2024-10-20)
+
+### Bug Fixes
+
+- upgrade browserslist from 4.23.3 to 4.24.0 ([#297](https://github.com/ivuorinen/base-configs/issues/297)) ([a99c55a](https://github.com/ivuorinen/base-configs/commit/a99c55aab760142b5d77ad80ce5d44b25dde17d7))
+
 ## 1.1.6 (2024-10-19)
 
 ### Bug Fixes

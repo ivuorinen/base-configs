@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "type": "module",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
@@ -28,11 +28,11 @@
     "url": "git+https://github.com/ivuorinen/base-configs.git"
   },
   "dependencies": {
-    "@ivuorinen/browserslist-config": "^0.3.2",
-    "@ivuorinen/commitlint-config": "^0.3.2",
-    "@ivuorinen/eslint-config": "^0.5.3",
-    "@ivuorinen/markdownlint-config": "^0.3.2",
-    "@ivuorinen/prettier-config": "^0.3.3",
-    "@ivuorinen/semantic-release-config": "^0.3.3"
+    "@ivuorinen/browserslist-config": "^0.3.3",
+    "@ivuorinen/commitlint-config": "^0.3.3",
+    "@ivuorinen/eslint-config": "^0.5.4",
+    "@ivuorinen/markdownlint-config": "^0.3.3",
+    "@ivuorinen/prettier-config": "^0.3.4",
+    "@ivuorinen/semantic-release-config": "^0.3.4"
   }
 }
