@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/commitlint-config",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "type": "module",
   "description": "ivuorinen's shareable configuration for commitlint.",
   "author": {
@@ -44,7 +44,7 @@
   "dependencies": {
     "@commitlint/cli": "^19",
     "@commitlint/config-conventional": "^19",
-    "@ivuorinen/config-checker": "^1.1.7"
+    "@ivuorinen/config-checker": "^1.1.8"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
 }

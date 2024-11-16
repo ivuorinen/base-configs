@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/stylelint-config",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "type": "module",
   "description": "ivuorinen's shareable configuration for stylelint.",
   "author": {
@@ -53,7 +53,7 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.7",
+    "@ivuorinen/config-checker": "^1.1.8",
     "postcss": "^8",
     "stylelint": "^16",
     "stylelint-config-recommended-scss": "^14",

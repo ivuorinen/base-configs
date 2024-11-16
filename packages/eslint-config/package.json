@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/eslint-config",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "ivuorinen's shareable configuration for ESLint.",
   "author": {
     "name": "Ismo Vuorinen",
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@eslint/js": "^9",
-    "@ivuorinen/config-checker": "^1.1.7",
+    "@ivuorinen/config-checker": "^1.1.8",
     "eslint": "^9",
     "eslint-config-prettier": "^9",
     "eslint-config-standard": "^17",
