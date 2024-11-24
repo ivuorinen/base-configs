@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.3.4...@ivuorinen/browserslist-config@0.4.0) (2024-11-24)
+
+### Features
+
+- bump node engine to >=20 ([3dbff76](https://github.com/ivuorinen/base-configs/commit/3dbff768c882dc12d01ac8eed6c70ae545db0e76))
+
 ## 0.3.4 (2024-11-16)
 
 ### Bug Fixes
