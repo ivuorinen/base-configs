@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@ivuorinen/base-configs",
+  "name": "@ivuorinen/base-configs-meta",
   "version": "1.0.0",
   "type": "module",
   "description": "A collection of base configs for code quality and linting tools.",
@@ -18,7 +18,7 @@
     }
   ],
   "engines": {
-    "node": ">= 18"
+    "node": ">=20"
   },
   "homepage": "https://github.com/ivuorinen/base-configs#readme",
   "keywords": [
