@@ -10,7 +10,7 @@
     "url": "https://github.com/ivuorinen/base-configs/issues"
   },
   "engines": {
-    "node": ">=20"
+    "node": "^20.9.0 || >=21.1.0"
   },
   "type": "module",
   "main": "index.cjs",
