@@ -68,7 +68,7 @@
     "eslint-plugin-unicorn": "^56.0.0",
     "lerna": "^8.0.0",
     "lerna-update-wizard": "^1.1.2",
-    "markdownlint-cli": "^0.42.0",
+    "markdownlint-cli": "^0.43.0",
     "prettier": "^3.0.0",
     "simple-git-hooks": "^2.8.1"
   },
