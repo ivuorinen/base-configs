@@ -26,7 +26,7 @@ npm install @ivuorinen/eslint-config --save-dev
 yarn add @ivuorinen/eslint-config --dev
 ```
 
-After installing it, a _`.eslintrc.json`_ file will be created automatically in the project's root folder with the following configuration:
+After installing it, a _`eslint.config.mjs`_ file will be created automatically in the project's root folder with the following configuration:
 
 ```json
 {

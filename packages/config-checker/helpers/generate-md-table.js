@@ -1,4 +1,4 @@
-'use strict'
+/* eslint no-console: "off" -- This is a cli app that generates cli output */
 
 const configurationPaths = require('../lib/configuration-paths')
 
@@ -13,7 +13,7 @@ const mdTable = configItems.map(file => {
 console.log('# Configuration files\n')
 
 const header = 'Searched configuration files'
-console.log('| ' + header + ' '.repeat(longestLine - header.length) + ' |')
-console.log('| ' + '-'.repeat(longestLine) + ' |')
+console.log(`| ${header}${' '.repeat(longestLine - header.length)} |`)
+console.log(`| ${'-'.repeat(longestLine)} |`)
 
 mdTable.forEach(line => console.log(line))

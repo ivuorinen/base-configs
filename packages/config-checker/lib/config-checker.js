@@ -1,15 +1,15 @@
-'use strict'
+/* eslint no-console: "off", n/no-process-exit: "off" -- CLI app that gives users feedback */
 
-const fs = require('fs')
-const path = require('path')
+const fs = require('node:fs')
+const path = require('node:path')
 // noinspection NpmUsedModulesInstalled
-const process = require('process')
+const process = require('node:process')
 const configurationPaths = require('./configuration-paths')
 
 /**
  * Checks for the existence of a configuration file.
- * @param {string} moduleName - The name of the module to check for.
- * @param {string} pathPrefix - The prefix to add to the path.
+ * @param {string} moduleName The name of the module to check for.
+ * @param {string} pathPrefix The prefix to add to the path.
  * @returns {string[]} - The paths to the configuration files.
  */
 const configChecker = (moduleName, pathPrefix = '') => {
