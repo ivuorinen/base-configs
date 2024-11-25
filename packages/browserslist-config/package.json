@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/browserslist-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "ivuorinen's shareable configuration for Browserslist.",
   "type": "module",
   "author": {
@@ -43,7 +43,7 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^1.1.8",
+    "@ivuorinen/config-checker": "^1.1.9",
     "browserslist": "^4.24.2"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"

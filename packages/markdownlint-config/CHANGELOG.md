@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.8 (2024-11-25)
+
+**Note:** Version bump only for package @ivuorinen/markdownlint-config
+
 ## [0.3.7](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/markdownlint-config@0.3.6...@ivuorinen/markdownlint-config@0.3.7) (2024-11-24)
 
 ### Bug Fixes
