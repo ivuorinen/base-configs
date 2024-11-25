@@ -1,9 +1,11 @@
 'use strict'
 
-const fs = require('fs')
-const path = require('path')
+/* eslint no-console: "off", n/no-process-exit: "off", no-undefined: "off" -- CLI app that gives users feedback */
+
+const fs = require('node:fs')
+const path = require('node:path')
 // noinspection NpmUsedModulesInstalled
-const process = require('process')
+const process = require('node:process')
 const checkConfig = require('@ivuorinen/config-checker')
 const foundConfig = checkConfig('stylelint')
 
