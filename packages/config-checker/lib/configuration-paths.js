@@ -1,10 +1,8 @@
-'use strict'
-
-const path = require('path')
+const path = require('node:path')
 
 /**
  * Returns an array of configuration paths.
- * @param {string} moduleName - The name of the module to check for.
+ * @param {string} moduleName The name of the module to check for.
  * @returns {string[]} - The paths to the configuration files.
  */
 const configurationPaths = moduleName => {
