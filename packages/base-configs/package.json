@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "type": "module",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
@@ -31,7 +31,7 @@
     "@ivuorinen/browserslist-config": "^0.4.1",
     "@ivuorinen/commitlint-config": "^0.3.7",
     "@ivuorinen/eslint-config": "^0.5.8",
-    "@ivuorinen/markdownlint-config": "^0.3.8",
+    "@ivuorinen/markdownlint-config": "^0.3.9",
     "@ivuorinen/prettier-config": "^0.3.7",
     "@ivuorinen/semantic-release-config": "^0.3.8"
   }
