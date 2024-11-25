@@ -18,7 +18,7 @@
     }
   ],
   "engines": {
-    "node": ">=20"
+    "node": "^20.9.0 || >=21.1.0"
   },
   "homepage": "https://github.com/ivuorinen/base-configs#readme",
   "keywords": [
@@ -36,14 +36,11 @@
     "type": "git",
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "deps:dedupe": "lernaupdate --dedupe",
     "deps:update": "lernaupdate",
-    "eslint:fix": "eslint --format=pretty '**/*.{js,tsx,ts,mjs,cjs}' --fix",
-    "eslint:report": "eslint --format=pretty '**/*.{js,tsx,ts,mjs,cjs}'",
+    "eslint:fix": "eslint '**/*.{js,tsx,ts,mjs,cjs}' --fix",
+    "eslint:report": "eslint '**/*.{js,tsx,ts,mjs,cjs}'",
     "lerna:bootstrap:ci": "yarn --frozen-lockfile --ignore-engines",
     "lerna:bootstrap": "yarn",
     "lerna:publish": "lerna publish from-package",
@@ -54,27 +51,12 @@
     "prettier:report": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' --check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.0",
-    "@commitlint/config-conventional": "^19.0.0",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-formatter-pretty": "^6.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^17.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-promise": "^7.0.0",
-    "eslint-plugin-sonarjs": "^2.0.0",
-    "eslint-plugin-unicorn": "^56.0.0",
+    "@ivuorinen/eslint-config": "file:packages/eslint-config",
+    "@ivuorinen/prettier-config": "file:packages/prettier-config",
+    "@types/node": "*",
+    "typescript": ">=4.2.0",
     "lerna": "^8.0.0",
-    "lerna-update-wizard": "^1.1.2",
-    "markdownlint-cli": "^0.43.0",
-    "prettier": "^3.0.0",
     "simple-git-hooks": "^2.8.1"
   },
-  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca",
-  "dependencies": {
-    "@types/node": "*",
-    "typescript": ">=4"
-  }
+  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
 }
