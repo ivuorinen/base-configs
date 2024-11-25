@@ -1,16 +1,32 @@
+'use strict'
+
 const globals = require('globals')
+const configEslint = require('eslint-config-eslint')
+const configPrettier = require('eslint-config-prettier')
+const pluginImport = require('eslint-plugin-import')
 const pluginJs = require('@eslint/js')
-const standard = require('eslint-config-standard')
 const pluginN = require('eslint-plugin-n')
 const pluginPromise = require('eslint-plugin-promise')
-const pluginImport = require('eslint-plugin-import')
-const pluginPrettier = require('eslint-plugin-prettier')
-const pluginSonarJS = require('eslint-plugin-sonarjs')
 
 /**
  * @type { import("eslint").Linter.Config[] } config eslint configuration.
  */
 module.exports = [
+  ...configEslint,
+  {
+    linterOptions: {
+      reportUnusedDisableDirectives: 'warn'
+    },
+    rules: {
+      'func-style': [
+        'error',
+        'declaration',
+        {
+          allowArrowFunctions: true
+        }
+      ]
+    }
+  },
   {
     files: ['**/*.{js,mjs,cjs}'],
     languageOptions: {
@@ -30,12 +46,10 @@ module.exports = [
     plugins: {
       n: pluginN,
       import: pluginImport,
-      promise: pluginPromise,
-      prettier: pluginPrettier,
-      sonarjs: pluginSonarJS
-    },
-    rules: standard.rules
+      promise: pluginPromise
+    }
   },
+  configPrettier,
   {
     ignores: ['coverage/', 'dist/', 'lib/', 'node_modules/']
   }
