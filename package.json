@@ -51,8 +51,10 @@
     "prettier:report": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' --check"
   },
   "devDependencies": {
+    "@ivuorinen/commitlint-config": "file:packages/commitlint-config",
     "@ivuorinen/eslint-config": "file:packages/eslint-config",
     "@ivuorinen/prettier-config": "file:packages/prettier-config",
+    "@ivuorinen/semantic-release-config": "file:packages/semantic-release-config",
     "@types/node": "*",
     "typescript": ">=4.2.0",
     "lerna": "^8.0.0",
