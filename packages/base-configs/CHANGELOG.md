@@ -1,6 +1,15 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [2.0.13](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.12...@ivuorinen/base-configs@2.0.13) (2024-11-25)
+
+**Note:** Version bump only for package @ivuorinen/base-configs
+
+
+
+
 
 ## 2.0.12 (2024-11-25)
 
