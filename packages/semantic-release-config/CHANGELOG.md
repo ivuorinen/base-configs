@@ -1,6 +1,15 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.3.9](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.3.8...@ivuorinen/semantic-release-config@0.3.9) (2024-12-07)
+
+**Note:** Version bump only for package @ivuorinen/semantic-release-config
+
+
+
+
 
 ## 0.3.8 (2024-11-25)
 
