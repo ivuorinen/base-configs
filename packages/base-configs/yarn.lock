@@ -394,10 +394,10 @@
     globals "^15"
     typescript ">=4.2.0"
 
-"@ivuorinen/markdownlint-config@^0.3.8":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/markdownlint-config/-/markdownlint-config-0.3.8.tgz#84ab2b3298328a2d9fe14ec7364c16cf950de7a2"
-  integrity sha512-vRh7KC15wj6KI1MsoMJG4LbBSMf4+2KuUHuD5FIhhIAWFD89IjBjRrfKdtv/1vPhBAZ9XxOH3pWJ7dNK+5yExw==
+"@ivuorinen/markdownlint-config@^0.3.9":
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/markdownlint-config/-/markdownlint-config-0.3.9.tgz#2c35ed4523d9f4c531eecce3df8afc0c25df269c"
+  integrity sha512-QSK6OFKCbg7IfHPmhapguqUyH8lz7709/CitPiDd2RhLMmBX1vFhQ/hQ71chItJtRMw5aZ7lnapNBwQWyqLy7A==
   dependencies:
     "@ivuorinen/config-checker" "^1.1.9"
     markdownlint-cli "^0.43.0"
@@ -410,10 +410,10 @@
     "@ivuorinen/config-checker" "^1.1.9"
     prettier "^3"
 
-"@ivuorinen/semantic-release-config@^0.3.8":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/semantic-release-config/-/semantic-release-config-0.3.8.tgz#8c7b06de00d847118317a7f34be271bb37ed3312"
-  integrity sha512-dwnXyd2aUviAs392TPdqB//VPEGg5TDz8g8ibB6CPLIHNhbm5cwrmdW+m/EwUaMSaRzcTfW7j6KzGGMywiWBdA==
+"@ivuorinen/semantic-release-config@^0.3.9":
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/semantic-release-config/-/semantic-release-config-0.3.9.tgz#eca691b6c5561488422505fd496bf27ab90247a0"
+  integrity sha512-zQIpVSyEwKvMzKt2Kzp8eQVrN+F8hKzlzc1O0dUIG8q8rQmT5F5l6KlWDpoBKZE1D1UBHMzO54YPJnvY793uFA==
   dependencies:
     "@ivuorinen/config-checker" "^1.1.9"
     "@semantic-release/changelog" "^6"
