@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "type": "module",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
@@ -28,7 +28,7 @@
     "url": "git+https://github.com/ivuorinen/base-configs.git"
   },
   "dependencies": {
-    "@ivuorinen/browserslist-config": "^0.4.2",
+    "@ivuorinen/browserslist-config": "^0.4.3",
     "@ivuorinen/commitlint-config": "^0.3.8",
     "@ivuorinen/eslint-config": "^0.5.8",
     "@ivuorinen/markdownlint-config": "^0.3.9",
