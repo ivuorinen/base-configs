@@ -34,7 +34,7 @@ jobs:
           git config user.email "189535814+fiximus@users.noreply.github.com"
 
       - name: Update Browserslist database and create PR if applies
-        uses: c2corg/browserslist-update-action@v2
+        uses: c2corg/browserslist-update-action@v2.5.0
         with:
           directory: ./packages/browserslist-config/
           github_token: ${{ secrets.GITHUB_TOKEN }}
