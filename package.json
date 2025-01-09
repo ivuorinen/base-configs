@@ -56,9 +56,9 @@
     "@ivuorinen/prettier-config": "file:packages/prettier-config",
     "@ivuorinen/semantic-release-config": "file:packages/semantic-release-config",
     "@types/node": "*",
-    "typescript": ">=4.2.0",
     "lerna": "^8.0.0",
-    "simple-git-hooks": "^2.8.1"
+    "simple-git-hooks": "^2.8.1",
+    "typescript": ">=4.2.0"
   },
   "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
 }
