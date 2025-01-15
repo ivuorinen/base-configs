@@ -57,7 +57,7 @@
     "postcss": "^8",
     "stylelint": "^16",
     "stylelint-config-recommended-scss": "^14",
-    "stylelint-config-standard": "^36",
+    "stylelint-config-standard": "^37.0.0",
     "stylelint-order": "^6",
     "stylelint-scss": "^6"
   },
