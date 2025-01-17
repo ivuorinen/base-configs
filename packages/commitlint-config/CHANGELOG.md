@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.9 (2025-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-config-prettier to 10.0.1 ([#324](https://github.com/ivuorinen/base-configs/issues/324)) ([8a0d38e](https://github.com/ivuorinen/base-configs/commit/8a0d38e173df40b771d42b694a24145559200506))
+
+
+
+
+
 ## [0.3.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/commitlint-config@0.3.7...@ivuorinen/commitlint-config@0.3.8) (2024-12-09)
 
 **Note:** Version bump only for package @ivuorinen/commitlint-config
