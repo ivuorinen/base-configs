@@ -16,12 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
 
       - name: Setup Node.js Environment
-        uses: actions/setup-node@v4.2.0
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
         with:
           always-auth: true
           node-version-file: '.nvmrc'
@@ -34,7 +34,7 @@ jobs:
           git config user.email "189535814+fiximus@users.noreply.github.com"
 
       - name: Update Browserslist database and create PR if applies
-        uses: c2corg/browserslist-update-action@v2.5.0
+        uses: c2corg/browserslist-update-action@a76abb476199caea5399f9e28ff3f16e491ec566 # v2.5.0
         with:
           directory: ./packages/browserslist-config/
           github_token: ${{ secrets.GITHUB_TOKEN }}
