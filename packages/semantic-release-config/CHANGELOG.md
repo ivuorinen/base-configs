@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.14](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.3.13...@ivuorinen/semantic-release-config@0.3.14) (2025-02-17)
+
+**Note:** Version bump only for package @ivuorinen/semantic-release-config
+
+
+
+
+
 ## [0.3.13](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.3.12...@ivuorinen/semantic-release-config@0.3.13) (2025-02-16)
 
 **Note:** Version bump only for package @ivuorinen/semantic-release-config
