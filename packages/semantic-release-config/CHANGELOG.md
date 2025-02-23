@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.15 (2025-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
+
+
+
+
+
 ## [0.3.14](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/semantic-release-config@0.3.13...@ivuorinen/semantic-release-config@0.3.14) (2025-02-17)
 
 **Note:** Version bump only for package @ivuorinen/semantic-release-config

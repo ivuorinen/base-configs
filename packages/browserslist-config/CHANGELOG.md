@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.9 (2025-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
+
+
+
+
+
 ## [0.4.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.4.7...@ivuorinen/browserslist-config@0.4.8) (2025-02-16)
 
 **Note:** Version bump only for package @ivuorinen/browserslist-config

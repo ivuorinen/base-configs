@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.27 (2025-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
+
+
+
+
+
 ## [2.0.26](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.25...@ivuorinen/base-configs@2.0.26) (2025-02-20)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
