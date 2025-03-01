@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ivuorinen/config-checker@^1.1.10":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.11.tgz#55a91c7b23725d2f1bb0e678d53638af1f034125"
-  integrity sha512-9nyiuhMprc8zxsZSxONnVS2CHd4Ad0Xl7EEXWMeiF0iuHeyu2RenHYZBZo2rv863vpaw5C9MJFXjsW7NEIGQpg==
+"@ivuorinen/config-checker@^1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.12.tgz#db3cc770ac0f8f2d3a3a3414caae718312b1a13f"
+  integrity sha512-C7HPRTsOxO0SKZH6ILs+KMTTe/7gx32dFfoPyK9+u7Da6mm5FEdj+H4h+Hp35ZbutyUa/IlFd3X0fla8sNS/vg==
 
 browserslist@^4.24.2:
   version "4.24.4"
@@ -18,9 +18,9 @@ browserslist@^4.24.2:
     update-browserslist-db "^1.1.1"
 
 caniuse-lite@^1.0.30001688:
-  version "1.0.30001700"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001700.tgz#26cd429cf09b4fd4e745daf4916039c794d720f6"
-  integrity sha512-2S6XIXwaE7K7erT8dY+kLQcpa5ms63XlRkMkReXjle+kf6c5g38vyMl+Z5y8dSxOFDhcFe+nxnn261PLxBSQsQ==
+  version "1.0.30001701"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001701.tgz"
+  integrity sha512-faRs/AW3jA9nTwmJBSO1PQ6L/EOgsB5HMQQq4iCu5zhPgVVgO/pZRHlmatwijZKetFw8/Pr4q6dEN8sJuq8qTw==
 
 electron-to-chromium@^1.5.73:
   version "1.5.103"
