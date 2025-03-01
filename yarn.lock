@@ -348,22 +348,22 @@
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
 "@ivuorinen/commitlint-config@file:packages/commitlint-config":
-  version "0.3.10"
+  version "0.3.11"
   dependencies:
     "@commitlint/cli" "^19"
     "@commitlint/config-conventional" "^19"
-    "@ivuorinen/config-checker" "^1.1.11"
+    "@ivuorinen/config-checker" "^1.1.12"
 
-"@ivuorinen/config-checker@^1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.11.tgz#55a91c7b23725d2f1bb0e678d53638af1f034125"
-  integrity sha512-9nyiuhMprc8zxsZSxONnVS2CHd4Ad0Xl7EEXWMeiF0iuHeyu2RenHYZBZo2rv863vpaw5C9MJFXjsW7NEIGQpg==
+"@ivuorinen/config-checker@^1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.12.tgz#db3cc770ac0f8f2d3a3a3414caae718312b1a13f"
+  integrity sha512-C7HPRTsOxO0SKZH6ILs+KMTTe/7gx32dFfoPyK9+u7Da6mm5FEdj+H4h+Hp35ZbutyUa/IlFd3X0fla8sNS/vg==
 
 "@ivuorinen/eslint-config@file:packages/eslint-config":
-  version "0.5.10"
+  version "0.5.11"
   dependencies:
     "@eslint/js" "^9"
-    "@ivuorinen/config-checker" "^1.1.11"
+    "@ivuorinen/config-checker" "^1.1.12"
     eslint "^9.15.0"
     eslint-config-eslint "^11"
     eslint-config-prettier "^10.0.0"
@@ -375,15 +375,15 @@
     typescript ">=4.2.0"
 
 "@ivuorinen/prettier-config@file:packages/prettier-config":
-  version "0.3.10"
+  version "0.3.11"
   dependencies:
-    "@ivuorinen/config-checker" "^1.1.11"
+    "@ivuorinen/config-checker" "^1.1.12"
     prettier "^3"
 
 "@ivuorinen/semantic-release-config@file:packages/semantic-release-config":
-  version "0.3.15"
+  version "0.3.16"
   dependencies:
-    "@ivuorinen/config-checker" "^1.1.11"
+    "@ivuorinen/config-checker" "^1.1.12"
     "@semantic-release/changelog" "^6"
     "@semantic-release/git" "^10"
     semantic-release "^24"
