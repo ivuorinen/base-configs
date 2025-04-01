@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.13](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.4.12...@ivuorinen/browserslist-config@0.4.13) (2025-04-01)
+
+**Note:** Version bump only for package @ivuorinen/browserslist-config
+
+
+
+
+
 ## [0.4.12](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/browserslist-config@0.4.11...@ivuorinen/browserslist-config@0.4.12) (2025-03-17)
 
 **Note:** Version bump only for package @ivuorinen/browserslist-config
