@@ -58,7 +58,7 @@
     "stylelint": "^16",
     "stylelint-config-recommended-scss": "^14",
     "stylelint-config-standard": "^38.0.0",
-    "stylelint-order": "^6",
+    "stylelint-order": "^7.0.0",
     "stylelint-scss": "^6"
   },
   "gitHead": "23d15f15743fb59c1dbe658615ef2ed51c54d230"
