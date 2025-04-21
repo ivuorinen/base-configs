@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.17](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.3.16...@ivuorinen/stylelint-config@0.3.17) (2025-04-21)
+
+
+### Bug Fixes
+
+* **deps:** update stylelint-order to 7.0.0 ([#353](https://github.com/ivuorinen/base-configs/issues/353)) ([e6f1a12](https://github.com/ivuorinen/base-configs/commit/e6f1a12eaa46f0577e42c17e14d4fa9cef35b780))
+
+
+
+
+
 ## [0.3.16](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/stylelint-config@0.3.15...@ivuorinen/stylelint-config@0.3.16) (2025-04-11)
 
 
