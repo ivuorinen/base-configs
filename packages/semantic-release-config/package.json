@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/semantic-release-config",
-  "version": "0.3.16",
+  "version": "0.3.17",
   "description": "ivuorinen's shareable configuration for semantic-release.",
   "author": {
     "name": "Ismo Vuorinen",
