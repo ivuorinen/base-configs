@@ -57,7 +57,7 @@
     "eslint-config-eslint": "^11",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^28",
+    "eslint-plugin-jest": "^29.0.0",
     "eslint-plugin-n": "^17",
     "eslint-plugin-promise": "^7",
     "globals": "^16.0.0",
