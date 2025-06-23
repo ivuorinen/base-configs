@@ -1,9 +1,8 @@
 {
-  "private": true,
-  "name": "@ivuorinen/base-configs-meta",
-  "version": "1.0.0",
+  "name": "@ivuorinen/base-configs",
+  "version": "2.0.31",
   "type": "module",
-  "description": "A collection of base configs for code quality and linting tools.",
+  "description": "ivuorinen's shareable configurations meta package",
   "author": {
     "name": "Ismo Vuorinen",
     "url": "https://github.com/ivuorinen"
@@ -18,7 +17,10 @@
     }
   ],
   "engines": {
-    "node": "^20.9.0 || >=21.1.0"
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://github.com/ivuorinen/base-configs#readme",
   "keywords": [
@@ -37,26 +39,21 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "deps:dedupe": "lernaupdate --dedupe",
-    "deps:update": "lernaupdate",
     "eslint:fix": "eslint '**/*.{js,tsx,ts,mjs,cjs}' --fix",
     "eslint:report": "eslint '**/*.{js,tsx,ts,mjs,cjs}'",
-    "lerna:bootstrap:ci": "yarn --frozen-lockfile --ignore-engines",
-    "lerna:bootstrap": "yarn",
-    "lerna:publish": "lerna publish from-package",
-    "lerna:version": "lerna version",
     "markdownlint:fix": "markdownlint '**/*.md' --fix",
     "markdownlint:report": "markdownlint '**/*.md'",
     "prettier:fix": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' --write",
     "prettier:report": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' --check"
   },
   "devDependencies": {
-    "@ivuorinen/commitlint-config": "@ivuorinen/base-configs-commitlint",
-    "@ivuorinen/eslint-config": "@ivuorinen/base-configs-eslint",
-    "@ivuorinen/prettier-config": "@ivuorinen/base-configs-prettier",
-    "@ivuorinen/semantic-release-config": "@ivuorinen/base-configs-semantic-release",
+    "@ivuorinen/browserslist-config": "^0.4.4",
+    "@ivuorinen/commitlint-config": "^0.3.8",
+    "@ivuorinen/eslint-config": "^0.5.12",
+    "@ivuorinen/markdownlint-config": "^0.3.15",
+    "@ivuorinen/prettier-config": "^0.3.8",
+    "@ivuorinen/semantic-release-config": "^0.3.9",
     "@types/node": "*",
-    "lerna": "^8.0.0",
     "simple-git-hooks": "^2.8.1",
     "typescript": ">=4.2.0"
   },
