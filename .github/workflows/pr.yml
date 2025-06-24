@@ -40,13 +40,6 @@ jobs:
         run: yarn install
 
       - name: Yarn Lock Changes
-        # Please use `main` as version before the stable release will be published as `v1`.
-        uses: Simek/yarn-lock-changes@main
+        uses: Simek/yarn-lock-changes@34017425198654c20162a4dfd4f238fbece9636f # v0.12.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Optional inputs, can be deleted safely if you are happy with default values.
-          collapsibleThreshold: 25
-          failOnDowngrade: false
-          path: yarn.lock
-          updateComment: true
-          groupByType: false

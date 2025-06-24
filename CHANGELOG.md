@@ -1,165 +1,86 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [2.0.31](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.30...@ivuorinen/base-configs@2.0.31) (2025-06-21)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.30](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.29...@ivuorinen/base-configs@2.0.30) (2025-06-12)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.29](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.28...@ivuorinen/base-configs@2.0.29) (2025-05-21)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## 2.0.28 (2025-02-23)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## 2.0.27 (2025-02-23)
-
 
 ### Bug Fixes
 
-* **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
-
-
-
-
+- **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
 
 ## [2.0.26](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.25...@ivuorinen/base-configs@2.0.26) (2025-02-20)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.25](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.24...@ivuorinen/base-configs@2.0.25) (2025-02-20)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.24](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.23...@ivuorinen/base-configs@2.0.24) (2025-02-17)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.23](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.22...@ivuorinen/base-configs@2.0.23) (2025-02-16)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.22](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.21...@ivuorinen/base-configs@2.0.22) (2025-01-28)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## 2.0.21 (2025-01-17)
-
 
 ### Bug Fixes
 
-* **deps:** update eslint-config-prettier to 10.0.1 ([#324](https://github.com/ivuorinen/base-configs/issues/324)) ([8a0d38e](https://github.com/ivuorinen/base-configs/commit/8a0d38e173df40b771d42b694a24145559200506))
-
-
-
-
+- **deps:** update eslint-config-prettier to 10.0.1 ([#324](https://github.com/ivuorinen/base-configs/issues/324)) ([8a0d38e](https://github.com/ivuorinen/base-configs/commit/8a0d38e173df40b771d42b694a24145559200506))
 
 ## [2.0.20](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.19...@ivuorinen/base-configs@2.0.20) (2025-01-01)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.19](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.18...@ivuorinen/base-configs@2.0.19) (2024-12-16)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.18](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.17...@ivuorinen/base-configs@2.0.18) (2024-12-16)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.17](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.16...@ivuorinen/base-configs@2.0.17) (2024-12-16)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.16](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.15...@ivuorinen/base-configs@2.0.16) (2024-12-09)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.15](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.14...@ivuorinen/base-configs@2.0.15) (2024-12-07)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## [2.0.14](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.13...@ivuorinen/base-configs@2.0.14) (2024-11-25)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-
-
-
-
 ## [2.0.13](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@2.0.12...@ivuorinen/base-configs@2.0.13) (2024-11-25)
 
 **Note:** Version bump only for package @ivuorinen/base-configs
-
-
-
-
 
 ## 2.0.12 (2024-11-25)
 
@@ -215,7 +136,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-# [2.0.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.106...@ivuorinen/base-configs@2.0.0) (2024-08-21)
+## [2.0.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.1.106...@ivuorinen/base-configs@2.0.0) (2024-08-21)
 
 - feat!: module & commonjs in base-configs ([02e4f47](https://github.com/ivuorinen/base-configs/commit/02e4f4779c79e5e179b3fb31b9a642d9ec96f862))
 
@@ -649,7 +570,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @ivuorinen/base-configs
 
-# 1.1.0 (2023-10-30)
+## [1.1.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/base-configs@1.0.0...@ivuorinen/base-configs@1.1.0) (2023-10-30)
 
 ### Bug Fixes
 
