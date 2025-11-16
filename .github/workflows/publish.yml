@@ -14,8 +14,10 @@ jobs:
     timeout-minutes: 15
     permissions:
       statuses: write
-      contents: read
-      packages: read
+      contents: write
+      packages: write
+      issues: write
+      pull-requests: write
 
     steps:
       - name: Run PR Lint
@@ -27,6 +29,12 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - Linter
+    permissions:
+      statuses: write
+      contents: write
+      packages: write
+      issues: write
+      pull-requests: write
 
     steps:
       - name: Checkout
@@ -57,6 +65,6 @@ jobs:
       - name: Release
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn run semantic-release
