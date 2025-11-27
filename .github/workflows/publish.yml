@@ -30,11 +30,10 @@ jobs:
     needs:
       - Linter
     permissions:
-      statuses: write
-      contents: write
-      packages: write
-      issues: write
-      pull-requests: write
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for trusted publishing and npm provenance
 
     steps:
       - name: Checkout
@@ -45,26 +44,18 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
         with:
-          always-auth: true
           node-version-file: ".nvmrc"
           registry-url: "https://registry.npmjs.org"
           scope: "@ivuorinen"
 
-      - name: Cache Node Modules
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
-        id: cache
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Install dependencies
+        run: yarn
 
-      - name: Install Dependencies
-        shell: bash
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: yarn npm audit --environment production
 
       - name: Release
-        shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn run semantic-release
+        run: yarn semantic-release

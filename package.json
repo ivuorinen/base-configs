@@ -39,25 +39,26 @@
     "url": "https://github.com/ivuorinen/base-configs.git"
   },
   "scripts": {
-    "eslint:fix": "eslint '**/*.{js,tsx,ts,mjs,cjs}' --fix",
-    "eslint:report": "eslint '**/*.{js,tsx,ts,mjs,cjs}'",
-    "fix": "run-s prettier:fix eslint:fix markdownlint:fix",
-    "markdownlint:fix": "markdownlint '**/*.md' --fix",
-    "markdownlint:report": "markdownlint '**/*.md'",
-    "prettier:fix": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --write",
-    "prettier:report": "prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --check"
+    "commitlint": "./node_modules/.bin/commitlint --from HEAD~1 --to HEAD --verbose",
+    "eslint:fix": "./node_modules/.bin/eslint '**/*.{js,tsx,ts,mjs,cjs}' --fix",
+    "eslint:report": "./node_modules/.bin/eslint '**/*.{js,tsx,ts,mjs,cjs}'",
+    "fix": "./node_modules/.bin/run-s prettier:fix eslint:fix markdownlint:fix",
+    "markdownlint:fix": "./node_modules/.bin/markdownlint '**/*.md' --fix",
+    "markdownlint:report": "./node_modules/.bin/markdownlint '**/*.md'",
+    "prettier:fix": "./node_modules/.bin/prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --write",
+    "prettier:report": "./node_modules/.bin/prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --check"
   },
   "devDependencies": {
-    "@ivuorinen/browserslist-config": "^0.4.4",
-    "@ivuorinen/commitlint-config": "^0.3.8",
-    "@ivuorinen/eslint-config": "^0.5.12",
-    "@ivuorinen/markdownlint-config": "^0.3.15",
-    "@ivuorinen/prettier-config": "^0.3.8",
-    "@ivuorinen/semantic-release-config": "^0.3.9",
+    "@ivuorinen/browserslist-config": "^0.4.19",
+    "@ivuorinen/commitlint-config": "^0.3.12",
+    "@ivuorinen/eslint-config": "^0.5.13",
+    "@ivuorinen/markdownlint-config": "^0.3.16",
+    "@ivuorinen/prettier-config": "^0.3.12",
+    "@ivuorinen/semantic-release-config": "^0.3.18",
     "@types/node": "*",
     "npm-run-all": "^4.1.5",
-    "simple-git-hooks": "^2.8.1",
+    "simple-git-hooks": "^2.13.1",
     "typescript": ">=4.2.0"
   },
-  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
+  "packageManager": "yarn@4.12.0"
 }
