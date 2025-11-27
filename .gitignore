@@ -13,3 +13,5 @@ packages/**/.*.config.*
 !packages/prettier-config/.prettierrc.json
 !packages/release-config/.releaserc.json
 !packages/stylelint-config/.stylelintrc.json
+.yarn
+CLAUDE.md
