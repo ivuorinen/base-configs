@@ -32,7 +32,7 @@ yarn add @ivuorinen/base-configs --dev
 ## Available Configurations
 
 | Tool                                      | Package                                            | Version                                                                               |
-|-------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
+| ----------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | [Browserslist][browserslist-link]         | [@ivuorinen/browserslist-config][pkg-browserlist]  | [![@ivuorinen/browserslist-config][browserslist-badge]][browserslist-npm]             |
 | [CommitLint][commitlint-link]             | [@ivuorinen/commitlint-config][pkg-commitlint]     | [![@ivuorinen/commitlint-config][commitlint-badge]][commitlint-npm]                   |
 | [ESLint][eslint-link]                     | [@ivuorinen/eslint-config][pkg-eslint]             | [![@ivuorinen/eslint-config][eslint-badge]][eslint-npm]                               |
