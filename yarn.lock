@@ -496,7 +496,7 @@ __metadata:
     "@ivuorinen/eslint-config": "npm:^1.0.0"
     "@ivuorinen/markdownlint-config": "npm:^1.0.0"
     "@ivuorinen/prettier-config": "npm:^1.0.0"
-    "@ivuorinen/semantic-release-config": "npm:^1.0.0"
+    "@ivuorinen/semantic-release-config": "npm:^1.1.0"
     "@types/node": "npm:*"
     npm-run-all2: "npm:^8.0.4"
     simple-git-hooks: "npm:^2.13.1"
@@ -527,14 +527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/config-checker@npm:^1.1.13":
-  version: 1.1.13
-  resolution: "@ivuorinen/config-checker@npm:1.1.13"
-  checksum: 10c0/441691257d7080252ed4de4d4392597b30ffa5e242820ac1d33a4281a4580a4c01aee5c4a688b5f7c8f125320e113a2df45ff236b1e133986bb633b0c7454070
-  languageName: node
-  linkType: hard
-
-"@ivuorinen/config-checker@npm:^2, @ivuorinen/config-checker@npm:^2.1.1":
+"@ivuorinen/config-checker@npm:^2, @ivuorinen/config-checker@npm:^2.0.0, @ivuorinen/config-checker@npm:^2.1.1":
   version: 2.1.1
   resolution: "@ivuorinen/config-checker@npm:2.1.1"
   checksum: 10c0/b342992ca95a2e8088bf1c36e9d826fb67148023763cc473e752a012ba03b76b5458606a9ddb0b6fe0bcc261d2c0d0fa1c9be877aa4cff78a64fd0eb0b60cf2e
@@ -580,15 +573,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/semantic-release-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@ivuorinen/semantic-release-config@npm:1.0.0"
+"@ivuorinen/semantic-release-config@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@ivuorinen/semantic-release-config@npm:1.1.0"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^1.1.13"
+    "@ivuorinen/config-checker": "npm:^2.0.0"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     semantic-release: "npm:^25.0.2"
-  checksum: 10c0/cbcb9590cf875a701a06cf26f3d6ce77768e3bb0bf9744e1e95a7e22e9ed3aa2dd112de5bc0b96d13f2c21c93862b29ca81b87f2c7fa9905f884707294289571
+  checksum: 10c0/7f3c7c0e41819d05903c8f4010ac3552c9774550f74d125a9d9f4290c31d2d233ce35c30f9f877e3dd756c8c74295b0d9c54356c966e1fc4423e8fc470425b5a
   languageName: node
   linkType: hard
 
