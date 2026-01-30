@@ -1,5 +1,17 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.0.1](https://github.com/ivuorinen/base-configs/compare/v1.0.0...v1.0.1) (2026-01-30)
+
+
+### Bug Fixes
+
+* **ci:** add branches to releaserc ([7222d0d](https://github.com/ivuorinen/base-configs/commit/7222d0d2634474a57210d2d9ddb55775ec7433b9))
+
+# Changelog
+
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 1.0.0 (2025-12-06)
