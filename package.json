@@ -54,7 +54,7 @@
     "@ivuorinen/eslint-config": "^1.0.0",
     "@ivuorinen/markdownlint-config": "^1.0.1",
     "@ivuorinen/prettier-config": "^1.0.0",
-    "@ivuorinen/semantic-release-config": "^1.1.0",
+    "@ivuorinen/semantic-release-config": "^1.1.1",
     "@types/node": "*",
     "npm-run-all2": "^8.0.4",
     "simple-git-hooks": "^2.13.1",
