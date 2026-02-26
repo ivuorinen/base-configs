@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/ivuorinen/base-configs/compare/v1.0.1...v1.0.2) (2026-02-26)
+
+
+### Bug Fixes
+
+* **ci:** consolidate CodeQL workflows with proper permissions ([#473](https://github.com/ivuorinen/base-configs/issues/473)) ([ee3606e](https://github.com/ivuorinen/base-configs/commit/ee3606e3cb811b17b89271e9e176e466dbf61511))
+
 ## [1.0.1](https://github.com/ivuorinen/base-configs/compare/v1.0.0...v1.0.1) (2026-01-30)
 
 

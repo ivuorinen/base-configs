@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/base-configs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "ivuorinen's shareable configurations meta package",
   "author": {
