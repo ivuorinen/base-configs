@@ -458,12 +458,12 @@ __metadata:
   linkType: soft
 
 "@ivuorinen/browserslist-config@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@ivuorinen/browserslist-config@npm:1.0.1"
+  version: 1.0.3
+  resolution: "@ivuorinen/browserslist-config@npm:1.0.3"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2"
+    "@ivuorinen/config-checker": "npm:^2.1.2"
     browserslist: "npm:^4.28.1"
-  checksum: 10c0/a2c27f23f0aefa8d87e71e595aa17175f71325e4a8875d7a1ab936107fb0effd5e3c87672a18a4efed2231c5d410e6757f062443fe8ceae7150a9c365391f3b9
+  checksum: 10c0/b1645fe39a05e3b15b810dd771e8c69c689b8268b90f39f8ab5ff35f93684923322141567a0deb2657a2155c5fa26781e6097fb18e953de4a7debe70f4bdd542
   languageName: node
   linkType: hard
 
@@ -480,7 +480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/config-checker@npm:^2, @ivuorinen/config-checker@npm:^2.0.0, @ivuorinen/config-checker@npm:^2.1.1":
+"@ivuorinen/config-checker@npm:^2, @ivuorinen/config-checker@npm:^2.0.0, @ivuorinen/config-checker@npm:^2.1.1, @ivuorinen/config-checker@npm:^2.1.2":
   version: 2.1.2
   resolution: "@ivuorinen/config-checker@npm:2.1.2"
   checksum: 10c0/e607eb7196a6c50309b654bb0cd46f64501f2a5ba211933bb73a43a6316b7455b563579a387778d00f31885d0fcf04d3d055aa1bd6ddf580dccca76cbb22d6fd
@@ -507,12 +507,12 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/markdownlint-config@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "@ivuorinen/markdownlint-config@npm:1.0.2"
+  version: 1.0.3
+  resolution: "@ivuorinen/markdownlint-config@npm:1.0.3"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.1.1"
+    "@ivuorinen/config-checker": "npm:^2.1.2"
     markdownlint-cli: "npm:^0.47.0"
-  checksum: 10c0/6c12fc0f041a693056670663bbcae7319bef4fdb339db419b51d1049fd152b9893bb986fc29cbdff1ef6ec569c5e0459133d70d344c8489361233bd1942e0535
+  checksum: 10c0/dcddf7863729d3b0f7f30f6c31e46cf689bfe14f4caeb9f143d59ad09e9bbd411e53e4f58217db6ba7dab2b38bd4c76720f185b1193ea2a67dacd66b177a1828
   languageName: node
   linkType: hard
 
@@ -527,14 +527,14 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/semantic-release-config@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@ivuorinen/semantic-release-config@npm:1.1.1"
+  version: 1.1.3
+  resolution: "@ivuorinen/semantic-release-config@npm:1.1.3"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.0.0"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     semantic-release: "npm:^25.0.2"
-  checksum: 10c0/16a1490fb9623069f7847f286643f88bec6a08b83bc31de762f13192b98754b13e703694647dfb998a52fedd6f5d9c39407a49e2761138ec1f6b3a1b1a8a7647
+  checksum: 10c0/440cd2ae8b83909f9e8011e26cf9aeccd4dcf6f69154c113a332bcef1786dec2d8bd468b819a6875983a9fcc1b5d20dbcfa33d9b6f9f9871719f3dc25be3cb10
   languageName: node
   linkType: hard
 
@@ -1624,11 +1624,11 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:^5.0.2":
-  version: 5.0.3
-  resolution: "brace-expansion@npm:5.0.3"
+  version: 5.0.4
+  resolution: "brace-expansion@npm:5.0.4"
   dependencies:
     balanced-match: "npm:^4.0.2"
-  checksum: 10c0/e474d300e581ec56851b3863ff1cf18573170c6d06deb199ccbd03b2119c36975f6ce2abc7b770f5bebddc1ab022661a9fea9b4d56f33315d7bef54d8793869e
+  checksum: 10c0/359cbcfa80b2eb914ca1f3440e92313fbfe7919ee6b274c35db55bec555aded69dac5ee78f102cec90c35f98c20fa43d10936d0cd9978158823c249257e1643a
   languageName: node
   linkType: hard
 
@@ -7815,12 +7815,11 @@ __metadata:
   linkType: hard
 
 "write-file-atomic@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "write-file-atomic@npm:7.0.0"
+  version: 7.0.1
+  resolution: "write-file-atomic@npm:7.0.1"
   dependencies:
-    imurmurhash: "npm:^0.1.4"
     signal-exit: "npm:^4.0.1"
-  checksum: 10c0/f5dd7c0324ae03b399974484fbe56363654c3884920e3c4f4d59b690596f113f60f4061a3c0aa5e6f4c22e5b9e7e0608954fd8131a916c9123b68a17ba886345
+  checksum: 10c0/69cebb64945e22928a24ae7e2a55bf54438c92d6f657c1fa5e96b7c7a50f6c022e7454ab5c259079bb35f60296242f3a21234c79320d64a8ad57675b56a2098d
   languageName: node
   linkType: hard
 
