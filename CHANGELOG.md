@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/ivuorinen/base-configs/compare/v1.0.2...v1.0.3) (2026-02-27)
+
+
+### Bug Fixes
+
+* **ci:** replace read-all with specific permissions in workflows ([ae49ca9](https://github.com/ivuorinen/base-configs/commit/ae49ca90c610e5ee4b31c4fa814571e733834ac7))
+
 ## [1.0.2](https://github.com/ivuorinen/base-configs/compare/v1.0.1...v1.0.2) (2026-02-26)
 
 ### Bug Fixes
