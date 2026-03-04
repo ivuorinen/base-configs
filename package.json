@@ -54,7 +54,8 @@
     "@ivuorinen/eslint-config": "^1.0.0",
     "@ivuorinen/markdownlint-config": "^1.0.1",
     "@ivuorinen/prettier-config": "^1.0.0",
-    "@ivuorinen/semantic-release-config": "^1.1.1"
+    "@ivuorinen/semantic-release-config": "^1.1.1",
+    "@ivuorinen/stylelint-config": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "*",
