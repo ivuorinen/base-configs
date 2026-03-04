@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/ivuorinen/base-configs/compare/v1.0.6...v1.0.7) (2026-03-04)
+
+
+### Bug Fixes
+
+* **deps:** resolve peer dependency warnings and minimatch vulnerability ([#480](https://github.com/ivuorinen/base-configs/issues/480)) ([81812c1](https://github.com/ivuorinen/base-configs/commit/81812c163a6cbfbfdafa3b8adad939b1488b47a9))
+
 ## [1.0.6](https://github.com/ivuorinen/base-configs/compare/v1.0.5...v1.0.6) (2026-03-04)
 
 ## [1.0.5](https://github.com/ivuorinen/base-configs/compare/v1.0.4...v1.0.5) (2026-03-03)
