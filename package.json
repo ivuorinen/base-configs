@@ -65,8 +65,8 @@
   },
   "resolutions": {
     "minimatch": "^10.2.4",
-    "picomatch": ">=4.0.4",
-    "undici": ">=7.24.0"
+    "picomatch": "^4.0.4",
+    "undici": "^7.24.0"
   },
   "packageManager": "yarn@4.13.0"
 }

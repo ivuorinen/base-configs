@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
-Node is managed via **mise**, which reads `.nvmrc` automatically. No manual activation needed in an interactive shell. For scripts:</p>
+Node is managed via **mise**, which reads `.nvmrc` automatically. No manual activation needed in an interactive shell. For scripts:
 
 ```sh
 mise exec -- yarn <command>
@@ -39,13 +39,13 @@ There is no build step and no test suite — this is a configuration distributio
 
 Each config package is versioned and published independently to npm. This repo only bumps their version ranges.
 
-- **Package manager**: Yarn 4 (Berry) with PnP — always use `yarn`, never `npm`
+- **Package manager**: Yarn 4 (Berry) with `node-modules` linker (no PnP) — always use `yarn` for repo development; consumers may install via `npm` as shown in the README
 - **Module system**: ES Modules (`"type": "module"`)
 - **Node requirement**: `>=20` (active version read from `.nvmrc` by mise)
 
 ## Release Process
 
-Releases are fully automated via **semantic-release** triggered on push to `main`. Commit messages must follow Conventional Commits (enforced by commitlint via simple-git-hooks pre-commit). Never manually bump versions or publish.
+Releases are fully automated via **semantic-release** triggered on push to `main`. Commit messages must follow Conventional Commits (enforced by commitlint via a simple-git-hooks `commit-msg` hook). Never manually bump versions or publish.
 
 ## EditorConfig Rules
 
@@ -82,7 +82,7 @@ Instead use:
 ### REDIRECTED tools — use sandbox equivalents
 
 #### Bash (>20 lines output)
-Bash is ONLY for: `git`, `mkdir`, `rm`, `mv`, `cd`, `ls`, `npm install`, `pip install`, and other short-output commands.
+Bash is ONLY for: `git`, `mkdir`, `rm`, `mv`, `cd`, `ls`, `yarn install`, `pip install`, and other short-output commands.
 For everything else, use:
 - `ctx_batch_execute(commands, queries)` — run multiple commands + search in ONE call
 - `ctx_execute(language: "shell", code: "...")` — run in sandbox, only stdout enters context
