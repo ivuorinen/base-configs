@@ -49,22 +49,24 @@
     "prettier:report": "./node_modules/.bin/prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --check"
   },
   "dependencies": {
-    "@ivuorinen/browserslist-config": "^1.0.1",
-    "@ivuorinen/commitlint-config": "^1.0.0",
-    "@ivuorinen/eslint-config": "^1.0.0",
-    "@ivuorinen/markdownlint-config": "^1.0.1",
-    "@ivuorinen/prettier-config": "^1.0.0",
-    "@ivuorinen/semantic-release-config": "^1.1.1",
-    "@ivuorinen/stylelint-config": "^1.0.6"
+    "@ivuorinen/browserslist-config": "^1.0.22",
+    "@ivuorinen/commitlint-config": "^1.0.14",
+    "@ivuorinen/eslint-config": "^1.0.17",
+    "@ivuorinen/markdownlint-config": "^1.0.23",
+    "@ivuorinen/prettier-config": "^1.0.14",
+    "@ivuorinen/semantic-release-config": "^1.1.20",
+    "@ivuorinen/stylelint-config": "^1.0.18"
   },
   "devDependencies": {
-    "@types/node": "*",
+    "@types/node": "^25.5.0",
     "npm-run-all2": "^8.0.4",
     "simple-git-hooks": "^2.13.1",
-    "typescript": ">=4.2.0"
+    "typescript": "^6.0.2"
   },
   "resolutions": {
-    "minimatch": "^10.2.4"
+    "minimatch": "^10.2.4",
+    "picomatch": "^4.0.4",
+    "undici": "^7.24.0"
   },
   "packageManager": "yarn@4.13.0"
 }
