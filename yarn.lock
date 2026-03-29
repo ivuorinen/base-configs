@@ -6450,7 +6450,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:>=4.0.4":
+"picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10c0/e2c6023372cc7b5764719a5ffb9da0f8e781212fa7ca4bd0562db929df8e117460f00dff3cb7509dacfc06b86de924b247f504d0ce1806a37fac4633081466b0
@@ -8199,7 +8199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:>=7.24.0":
+"undici@npm:^7.24.0":
   version: 7.24.6
   resolution: "undici@npm:7.24.6"
   checksum: 10c0/0f5413ccb20bafe27637a3a02cada731c53ee75f1df79029099db3af1eaaed410488489d9f430c09bd30bf0b925cb75fc30c39dff0689f656fd6fb7d75ded95f
