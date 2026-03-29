@@ -6,8 +6,6 @@ This is a meta package for all my base configs.
 
 The main reason for this package is to make it easier to use these configs in other projects, and to update them all at once. No more pull requests to update all the configs one at a time!
 
-[![license MIT][license-badge]][license-link] [![ivuorinen's Code Style][style-badge]][style-link]
-
 > A collection of base configs for code quality and linting tools. Heavily based on `@demartini/base-configs`
 
 ## Table of Contents <!-- omit in toc -->
@@ -31,23 +29,30 @@ yarn add @ivuorinen/base-configs --dev
 
 ## Available Configurations
 
-| Tool                                      | Package                                            | Version                                                                               |
-| ----------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Browserslist][browserslist-link]         | [@ivuorinen/browserslist-config][pkg-browserlist]  | [![@ivuorinen/browserslist-config][browserslist-badge]][browserslist-npm]             |
-| [CommitLint][commitlint-link]             | [@ivuorinen/commitlint-config][pkg-commitlint]     | [![@ivuorinen/commitlint-config][commitlint-badge]][commitlint-npm]                   |
-| [ESLint][eslint-link]                     | [@ivuorinen/eslint-config][pkg-eslint]             | [![@ivuorinen/eslint-config][eslint-badge]][eslint-npm]                               |
-| [MarkdownLint][markdownlint-link]         | [@ivuorinen/markdownlint-config][pkg-markdownlint] | [![@ivuorinen/markdownlint-config][markdownlint-badge]][markdownlint-npm]             |
-| [Prettier][prettier-link]                 | [@ivuorinen/prettier-config][pkg-prettier]         | [![@ivuorinen/prettier-config][prettier-badge]][prettier-npm]                         |
-| [semantic-release][semantic-release-link] | [@ivuorinen/semantic-release-config][pkg-src]      | [![@ivuorinen/semantic-release-config][semantic-release-badge]][semantic-release-npm] |
-| [stylelint][stylelint-link]               | [@ivuorinen/stylelint-config][pkg-stylelint]       | [![@ivuorinen/stylelint-config][stylelint-badge]][stylelint-npm]                      |
+| Tool                                      | Package                                               | GitHub                                      | Version                                                                               |
+| ----------------------------------------- | ----------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Browserslist][browserslist-link]         | [@ivuorinen/browserslist-config][pkg-browserslist]    | [GitHub][gh-browserslist]                   | [![@ivuorinen/browserslist-config][browserslist-badge]][browserslist-npm]             |
+| [CommitLint][commitlint-link]             | [@ivuorinen/commitlint-config][pkg-commitlint]        | [GitHub][gh-commitlint]                     | [![@ivuorinen/commitlint-config][commitlint-badge]][commitlint-npm]                   |
+| [ESLint][eslint-link]                     | [@ivuorinen/eslint-config][pkg-eslint]                | [GitHub][gh-eslint]                         | [![@ivuorinen/eslint-config][eslint-badge]][eslint-npm]                               |
+| [MarkdownLint][markdownlint-link]         | [@ivuorinen/markdownlint-config][pkg-markdownlint]    | [GitHub][gh-markdownlint]                   | [![@ivuorinen/markdownlint-config][markdownlint-badge]][markdownlint-npm]             |
+| [Prettier][prettier-link]                 | [@ivuorinen/prettier-config][pkg-prettier]            | [GitHub][gh-prettier]                       | [![@ivuorinen/prettier-config][prettier-badge]][prettier-npm]                         |
+| [semantic-release][semantic-release-link] | [@ivuorinen/semantic-release-config][pkg-src]         | [GitHub][gh-semantic-release]               | [![@ivuorinen/semantic-release-config][semantic-release-badge]][semantic-release-npm] |
+| [stylelint][stylelint-link]               | [@ivuorinen/stylelint-config][pkg-stylelint]          | [GitHub][gh-stylelint]                      | [![@ivuorinen/stylelint-config][stylelint-badge]][stylelint-npm]                      |
 
-[pkg-browserlist]: https://www.npmjs.com/package/@ivuorinen/browserlist-config
+[pkg-browserslist]: https://www.npmjs.com/package/@ivuorinen/browserslist-config
 [pkg-commitlint]: https://www.npmjs.com/package/@ivuorinen/commitlint-config
 [pkg-eslint]: https://www.npmjs.com/package/@ivuorinen/eslint-config
 [pkg-markdownlint]: https://www.npmjs.com/package/@ivuorinen/markdownlint-config
 [pkg-prettier]: https://www.npmjs.com/package/@ivuorinen/prettier-config
 [pkg-src]: https://www.npmjs.com/package/@ivuorinen/semantic-release-config
 [pkg-stylelint]: https://www.npmjs.com/package/@ivuorinen/stylelint-config
+[gh-browserslist]: https://github.com/ivuorinen/browserslist-config
+[gh-commitlint]: https://github.com/ivuorinen/commitlint-config
+[gh-eslint]: https://github.com/ivuorinen/eslint-config
+[gh-markdownlint]: https://github.com/ivuorinen/markdownlint-config
+[gh-prettier]: https://github.com/ivuorinen/prettier-config
+[gh-semantic-release]: https://github.com/ivuorinen/semantic-release-config
+[gh-stylelint]: https://github.com/ivuorinen/stylelint-config
 
 ## Badge
 

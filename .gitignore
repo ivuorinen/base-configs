@@ -14,4 +14,3 @@ packages/**/.*.config.*
 !packages/release-config/.releaserc.json
 !packages/stylelint-config/.stylelintrc.json
 .yarn
-CLAUDE.md
