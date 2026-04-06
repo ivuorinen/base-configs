@@ -46,13 +46,13 @@ yarn add @ivuorinen/base-configs --dev
 [pkg-prettier]: https://www.npmjs.com/package/@ivuorinen/prettier-config
 [pkg-src]: https://www.npmjs.com/package/@ivuorinen/semantic-release-config
 [pkg-stylelint]: https://www.npmjs.com/package/@ivuorinen/stylelint-config
-[gh-browserslist]: https://github.com/ivuorinen/browserslist-config
-[gh-commitlint]: https://github.com/ivuorinen/commitlint-config
-[gh-eslint]: https://github.com/ivuorinen/eslint-config
-[gh-markdownlint]: https://github.com/ivuorinen/markdownlint-config
-[gh-prettier]: https://github.com/ivuorinen/prettier-config
-[gh-semantic-release]: https://github.com/ivuorinen/semantic-release-config
-[gh-stylelint]: https://github.com/ivuorinen/stylelint-config
+[gh-browserslist]: https://github.com/ivuorinen/base-configs-browserslist
+[gh-commitlint]: https://github.com/ivuorinen/base-configs-commitlint
+[gh-eslint]: https://github.com/ivuorinen/base-configs-eslint
+[gh-markdownlint]: https://github.com/ivuorinen/base-configs-markdownlint
+[gh-prettier]: https://github.com/ivuorinen/base-configs-prettier
+[gh-semantic-release]: https://github.com/ivuorinen/base-configs-semantic-release
+[gh-stylelint]: https://github.com/ivuorinen/base-configs-stylelint
 
 ## Badge
 
@@ -76,7 +76,7 @@ See [CHANGELOG][changelog-link] for a human-readable history of changes.
 
 Distributed under the MIT License. See [LICENSE][license-link] for more information.
 
-[changelog-link]: ./CHANGELOG.md
+[changelog-link]: https://github.com/ivuorinen/base-configs/releases
 [contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399
