@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "npm-run-all2": "^8.0.4",
+    "npm-run-all2": "^9.0.0",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.2"
   },
