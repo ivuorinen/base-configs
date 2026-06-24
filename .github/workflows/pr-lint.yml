@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: read # read repository contents
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -22,22 +22,25 @@ jobs:
     name: PR Lint
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Dedicated environment scopes the CI credentials (NPM_TOKEN) used by the lint steps.
+    environment: ci
     permissions:
-      contents: read
-      issues: write
-      packages: read
-      pull-requests: write
-      statuses: write
+      contents: read # read repository contents
+      issues: write # comment on the pull request
+      packages: read # read GitHub Packages
+      pull-requests: write # post the lint and yarn.lock comments
+      statuses: write # report lint status on the commit
 
     steps:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
 
       - name: Install and enable corepack
         shell: sh
-        run: npm install -g corepack --force && corepack enable
+        run: corepack enable
 
       - name: Yarn Lock Changes
         uses: Simek/yarn-lock-changes@59f47ee499424d2c2437c5aebf863b5c6d50a5bc # v0.14.1
@@ -49,7 +52,7 @@ jobs:
 
       - name: Run PR Lint
         # https://github.com/ivuorinen/actions
-        uses: ivuorinen/actions/pr-lint@121af64df2985470a81ff4e2eb60cdc52cb7745b # v2026.06.14
+        uses: ivuorinen/actions/pr-lint@8395dad6b7d5d7d2e1d016cac1eede33ab404a3c # v2026.06.18
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
