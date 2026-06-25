@@ -71,7 +71,9 @@ jobs:
         id: cache
         with:
           path: node_modules
-          key: node-modules-${{ hashFiles('**/yarn.lock') }}
+          # Include .nvmrc so a Node version bump invalidates caches that may
+          # contain native modules built against the previous Node ABI.
+          key: node-modules-${{ hashFiles('.nvmrc', '**/yarn.lock') }}
 
       - name: Install Dependencies
         shell: bash
