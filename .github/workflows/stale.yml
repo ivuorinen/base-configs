@@ -4,14 +4,18 @@ name: Stale
 
 on:
   schedule:
-    - cron: "0 8 * * *" # Every day at 08:00
+    - cron: '0 8 * * *' # Every day at 08:00
   workflow_call:
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
-  contents: read
-  packages: read
-  statuses: read
+  contents: read # read repository contents
+  packages: read # read GitHub Packages
+  statuses: read # read commit statuses
 
 jobs:
   stale:
@@ -20,7 +24,7 @@ jobs:
 
     permissions:
       contents: write # only for delete-branch option
-      issues: write
-      pull-requests: write
+      issues: write # mark and close stale issues
+      pull-requests: write # mark and close stale pull requests
     steps:
-      - uses: ivuorinen/actions/stale@121af64df2985470a81ff4e2eb60cdc52cb7745b # v2026.06.14
+      - uses: ivuorinen/actions/stale@8395dad6b7d5d7d2e1d016cac1eede33ab404a3c # v2026.06.18

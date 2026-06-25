@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+---
+reviews:
+  path_instructions:
+    - path: 'package.json'
+      instructions: |-
+        This repository IS the `@ivuorinen/base-configs` meta-package; its sole
+        purpose is to list the seven individual `@ivuorinen/*` config packages
+        as dependencies. Do NOT flag those entries or suggest collapsing them
+        into a single `@ivuorinen/base-configs` dependency, which would be a
+        circular self-dependency. The "install the meta-package instead of the
+        individual configs" rule applies only to consumer repositories, not to
+        this repo.

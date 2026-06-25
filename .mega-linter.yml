@@ -1,0 +1,10 @@
+---
+# MegaLinter configuration
+# https://megalinter.io/latest/configuration/
+
+# Allow zizmor's online audits (e.g. impostor-commit) to authenticate with the
+# GitHub API. MegaLinter strips the environment passed to linters by default,
+# which left zizmor unauthenticated and failing impostor-commit with HTTP 401.
+# https://megalinter.io/latest/descriptors/action_zizmor/
+ACTION_ZIZMOR_UNSECURED_ENV_VARIABLES:
+  - GITHUB_TOKEN
