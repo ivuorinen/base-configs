@@ -69,5 +69,5 @@
     "picomatch": "^4.0.4",
     "undici": "^8.5.0"
   },
-  "packageManager": "yarn@4.17.0"
+  "packageManager": "yarn@4.17.1"
 }
