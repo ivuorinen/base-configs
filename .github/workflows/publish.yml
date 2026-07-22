@@ -54,7 +54,7 @@ jobs:
           persist-credentials: false
 
       - name: Setup Node.js Environment
-        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           # No always-auth / NPM_TOKEN: the package is published via npm Trusted
           # Publishing (OIDC), which uses the id-token below instead of a token.
