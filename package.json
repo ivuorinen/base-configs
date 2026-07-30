@@ -61,7 +61,7 @@
     "@types/node": "^26.0.0",
     "npm-run-all2": "^9.0.2",
     "simple-git-hooks": "^2.13.1",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.0"
   },
   "resolutions": {
     "js-yaml": "^5.0.0",
