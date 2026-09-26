@@ -6,4 +6,8 @@ Only the latest versions of the configuration packages and the base package are 
 
 ## Reporting a Vulnerability
 
-This repository has automatic package update systems in place. If you find a vulnerability, please send me email and I'll fix it as soon as possible.
+Report vulnerabilities privately through GitHub:
+<https://github.com/ivuorinen/base-configs/security/advisories/new>
+(Security → Report a vulnerability). Please do not open a public issue.
+
+This repository has automatic package update systems in place, and reported issues are fixed as soon as possible.

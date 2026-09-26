@@ -1,16 +1,9 @@
-node_modules
-packages/**/.*rc
-packages/**/.*rc.json
-packages/**/.markdownlint.json
-packages/**/*.config.*
-packages/**/.*.config.*
+# Dependencies
+node_modules/
 
-!packages/browserslist-config/.browserslistrc
-!packages/commitlint-config/.commitlintrc.json
-!packages/eslint-config/.eslintrc.json
-!packages/eslint-config/eslint.config.*
-!packages/markdownlint-config/.markdownlint.json
-!packages/prettier-config/.prettierrc.json
-!packages/release-config/.releaserc.json
-!packages/stylelint-config/.stylelintrc.json
-.yarn
+# Yarn (node-modules linker; see .yarnrc.yml)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

@@ -27,6 +27,29 @@ npm install @ivuorinen/base-configs --save-dev
 yarn add @ivuorinen/base-configs --dev
 ```
 
+Requires Node.js `^22.22.2 || ^24.15.0 || >=26`, the floor the bundled tools (commitlint, semantic-release,
+markdownlint) set. Node 25 is excluded because `@ivuorinen/markdownlint-config` does not support it.
+
+Each config package ships a `postinstall` script that writes a starter config file when none exists. How that behaves
+depends on the package manager:
+
+- **npm** runs it (npm 11 warns that the script is not covered by `allowScripts`).
+- **Yarn 4** does not run dependency install scripts, so no config files are written — create them as each package's
+  README describes.
+- **pnpm** refuses unapproved install scripts and fails the install (`ERR_PNPM_IGNORED_BUILDS`). Run
+  `pnpm approve-builds --all`, which records the approvals in `pnpm-workspace.yaml` (pnpm 12):
+
+  ```yaml
+  allowBuilds:
+    '@ivuorinen/browserslist-config': true
+    '@ivuorinen/commitlint-config': true
+    '@ivuorinen/eslint-config': true
+    '@ivuorinen/markdownlint-config': true
+    '@ivuorinen/prettier-config': true
+    '@ivuorinen/semantic-release-config': true
+    '@ivuorinen/stylelint-config': true
+  ```
+
 ## Available Configurations
 
 | Tool                                      | Package                                               | GitHub                                      | Version                                                                               |
@@ -66,7 +89,7 @@ Show the world that you are using ivuorinen's code style in your project by incl
 
 ## Contributing
 
-If you are interested in helping contribute, please take a look at our [contribution guidelines][contributing-link] and open an [issue][issue-link] or [pull request][pull-request-link].
+If you are interested in helping contribute, please open an [issue][issue-link] or [pull request][pull-request-link].
 
 ## Changelog
 
@@ -77,7 +100,6 @@ See [CHANGELOG][changelog-link] for a human-readable history of changes.
 Distributed under the MIT License. See [LICENSE][license-link] for more information.
 
 [changelog-link]: https://github.com/ivuorinen/base-configs/releases
-[contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs?style=flat-square&labelColor=292a44&color=663399
 [license-link]: ./LICENSE

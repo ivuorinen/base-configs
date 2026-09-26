@@ -13,16 +13,15 @@ concurrency:
 permissions:
   contents: read # read repository contents
 
-env:
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-  GITHUB_TOKEN: ${{ github.token }}
+# No workflow-level `env:` and no NPM_TOKEN: a secret placed there reaches
+# every step, including third-party actions, and linting needs no npm
+# credential (publishing authenticates via OIDC).
 
 jobs:
   Linter:
     name: PR Lint
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # Dedicated environment scopes the CI credentials (NPM_TOKEN) used by the lint steps.
     environment: ci
     permissions:
       contents: read # read repository contents
@@ -48,11 +47,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Run PR Lint
         # https://github.com/ivuorinen/actions
         uses: ivuorinen/actions/pr-lint@94a4f68a6b95ecc1677fbcac1683119fd869adf7 # v2026.07.04
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
