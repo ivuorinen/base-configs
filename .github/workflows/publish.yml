@@ -68,24 +68,24 @@ jobs:
 
       - name: Cache Node Modules
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        id: cache
         with:
           path: node_modules
           # Include .nvmrc so a Node version bump invalidates caches that may
           # contain native modules built against the previous Node ABI.
           key: node-modules-${{ hashFiles('.nvmrc', '**/yarn.lock') }}
 
+      # Unconditional and immutable: a package.json-only change keeps the cache
+      # key, and skipping the install on a hit would release against a stale
+      # tree (semantic-release reads its rules from node_modules).
       - name: Install Dependencies
         shell: bash
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
+        run: yarn install --immutable --mode=skip-build
 
+      # No extra_plugins: the action would npm-install them unpinned, with
+      # install scripts, in this credentialed job. The config's plugins
+      # (commit-analyzer, release-notes-generator, npm, github) ship inside
+      # semantic-release itself.
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@b12c8f6015dc215fe37bc154d4ad456dd3833c90 # v6.0.0
-        with:
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/github
-            @semantic-release/npm
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}

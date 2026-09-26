@@ -1,0 +1,20 @@
+---
+# yaml-language-server: $schema=https://json.schemastore.org/dependabot-2.0.json
+#
+# Dependabot only bumps yarn.lock here (`versioning-strategy: lockfile-only`).
+# The lockfile does not change what consumers install — they resolve the
+# dependency ranges in package.json themselves — so these updates must not cut
+# a release. The `actions` scope maps to `release: false` in
+# @ivuorinen/semantic-release-config; the default `chore(deps)` would publish a
+# patch with no consumer-visible change.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    versioning-strategy: lockfile-only
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(actions)"

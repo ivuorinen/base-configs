@@ -34,6 +34,18 @@
       "matchManagers": ["pre-commit"],
       "matchUpdateTypes": ["major"],
       "commitMessagePrefix": "chore(actions): "
+    },
+    {
+      "description": [
+        "The devDependency on conventional-changelog-conventionalcommits exists only to hoist 9.x to the root, where ",
+        "semantic-release's release-notes-generator 14 (conventional-changelog-writer 8) loads it; ",
+        "@commitlint/config-conventional keeps its own nested 10.x. 10.x needs writer 9: 10.0-10.3 render notes with ",
+        "only the version heading and 10.4 fails the release. Hold it below 10 until a stable release-notes-generator ",
+        "moves to writer 9."
+      ],
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "matchDepTypes": ["devDependencies"],
+      "allowedVersions": "<10"
     }
   ]
 }
