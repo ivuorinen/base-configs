@@ -15,3 +15,8 @@ max_line_length = 120
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
+# JSON Lines holds one record per line by definition, so a record cannot be
+# wrapped. docs/audit/findings/resolved.jsonl is the findings ledger.
+[*.jsonl]
+max_line_length = off
