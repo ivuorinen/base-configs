@@ -64,7 +64,7 @@ yarn install && yarn simple-git-hooks
 
 - Charset: UTF-8, line endings: LF
 - Indent: 2 spaces (all file types)
-- Max line length: 120 (disabled for Markdown)
+- Max line length: 120 (disabled for Markdown and JSON Lines)
 - Trim trailing whitespace (except Markdown)
 
 ---
