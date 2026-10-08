@@ -545,12 +545,12 @@ __metadata:
   linkType: soft
 
 "@ivuorinen/browserslist-config@npm:^1.3.23":
-  version: 1.3.23
-  resolution: "@ivuorinen/browserslist-config@npm:1.3.23"
+  version: 1.3.26
+  resolution: "@ivuorinen/browserslist-config@npm:1.3.26"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.1.2"
     browserslist: "npm:^4.28.2"
-  checksum: 10c0/1d73a82fa9baae2c236c8f97cfc29d50cdee0e3697e8e00fce360d834d9bfb2efffdda1ea934060f20fea9775a5e0a997edad3acace89f398deeab1305bba85e
+  checksum: 10c0/40bc3e8031b44c43e5aa0084ca9e85df725df072f2049c3b4e31dc27855e0a4cda7ec20d31c56ebd59a0f66a59fa72bbe438f92bba941676019a8e7fce88e8d5
   languageName: node
   linkType: hard
 
