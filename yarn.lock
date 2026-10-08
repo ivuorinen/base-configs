@@ -602,12 +602,12 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/prettier-config@npm:^2.0.13":
-  version: 2.0.13
-  resolution: "@ivuorinen/prettier-config@npm:2.0.13"
+  version: 2.0.16
+  resolution: "@ivuorinen/prettier-config@npm:2.0.16"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.1"
     prettier: "npm:^3.8.1"
-  checksum: 10c0/c40a602e1d9b4b17d26a6a7d2d1c339a96a53e7edd580b7ffa7e1e4e4ffb444442db71d2a8740c4803db09f0a0c7a686f92d0aea3251fdbf55992257c8f408ff
+  checksum: 10c0/ce4f5fa929bae91838f73d595e2faa848d4700b85b89af06db5dcc759a48aff97212a1ef05369b8bf2cd2e6ce335fe9ca03d9a2de24cce396dc8187aca15c559
   languageName: node
   linkType: hard
 
