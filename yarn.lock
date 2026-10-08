@@ -612,13 +612,13 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/semantic-release-config@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@ivuorinen/semantic-release-config@npm:3.0.0"
+  version: 3.0.5
+  resolution: "@ivuorinen/semantic-release-config@npm:3.0.5"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.17"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     semantic-release: "npm:^25.0.5"
-  checksum: 10c0/ba710160cdf8e40c88da6f1c2aabfacfb39b0a57db0d6dc19d218493e581d3e73a37c2751156250d3d613136e953167b6986e44f90344132cbf6fb74e84cf90c
+  checksum: 10c0/7f607c2b0f0928ec3e27451ca43f7a47c22977c2c2e0147ac462e082d8a0f04a955bcca9a49a69a6b67ac644a3031b1639bd3b798e4d8800c24be83859484562
   languageName: node
   linkType: hard
 
