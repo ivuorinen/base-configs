@@ -55,7 +55,8 @@
     "@ivuorinen/markdownlint-config": "^2.0.0",
     "@ivuorinen/prettier-config": "^2.0.13",
     "@ivuorinen/semantic-release-config": "^3.0.0",
-    "@ivuorinen/stylelint-config": "^1.4.8"
+    "@ivuorinen/stylelint-config": "^1.4.8",
+    "stylelint": "^17.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
