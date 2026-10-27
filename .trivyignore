@@ -1,0 +1,5 @@
+# https://trivy.dev/docs/latest/configuration/filtering/#trivyignore
+
+# katex: the advisory osv-scanner.toml ignores as GHSA-238p-pmpm-9mq7, with the
+# same expiry. osv-scanner.toml records why katex.renderToString is unreachable.
+CVE-2026-103923 exp:2027-01-27

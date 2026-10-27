@@ -10,16 +10,16 @@ Node is managed via **mise**, which reads `.nvmrc` automatically. No manual acti
 mise exec -- yarn <command>
 ```
 
-| Task | Command |
-| ------ | --------- |
-| Fix all (prettier → eslint → markdownlint) | `yarn fix` |
-| ESLint autofix | `yarn eslint:fix` |
-| ESLint report only | `yarn eslint:report` |
-| Prettier autofix | `yarn prettier:fix` |
-| Prettier report only | `yarn prettier:report` |
-| Markdownlint autofix | `yarn markdownlint:fix` |
-| Markdownlint report only | `yarn markdownlint:report` |
-| Validate last commit message | `yarn commitlint` |
+| Task                                       | Command                    |
+|--------------------------------------------|----------------------------|
+| Fix all (prettier → eslint → markdownlint) | `yarn fix`                 |
+| ESLint autofix                             | `yarn eslint:fix`          |
+| ESLint report only                         | `yarn eslint:report`       |
+| Prettier autofix                           | `yarn prettier:fix`        |
+| Prettier report only                       | `yarn prettier:report`     |
+| Markdownlint autofix                       | `yarn markdownlint:fix`    |
+| Markdownlint report only                   | `yarn markdownlint:report` |
+| Validate last commit message               | `yarn commitlint`          |
 
 There is no build step and no test suite — this is a configuration distribution package.
 
@@ -28,15 +28,15 @@ There is no build step and no test suite — this is a configuration distributio
 `@ivuorinen/base-configs` is a **meta-package**: it has no source code of its own. Its sole purpose is to declare
 the 7 individual config packages as `dependencies` so consumers can install one package and get all configs:
 
-| Config | Package |
-| -------- | --------- |
-| Browserslist | `@ivuorinen/browserslist-config` |
-| CommitLint | `@ivuorinen/commitlint-config` |
-| ESLint | `@ivuorinen/eslint-config` |
-| Markdownlint | `@ivuorinen/markdownlint-config` |
-| Prettier | `@ivuorinen/prettier-config` |
+| Config           | Package                              |
+|------------------|--------------------------------------|
+| Browserslist     | `@ivuorinen/browserslist-config`     |
+| CommitLint       | `@ivuorinen/commitlint-config`       |
+| ESLint           | `@ivuorinen/eslint-config`           |
+| Markdownlint     | `@ivuorinen/markdownlint-config`     |
+| Prettier         | `@ivuorinen/prettier-config`         |
 | Semantic Release | `@ivuorinen/semantic-release-config` |
-| Stylelint | `@ivuorinen/stylelint-config` |
+| Stylelint        | `@ivuorinen/stylelint-config`        |
 
 Each config package is versioned and published independently to npm. This repo only bumps their version ranges.
 
@@ -64,7 +64,7 @@ yarn install && yarn simple-git-hooks
 
 - Charset: UTF-8, line endings: LF
 - Indent: 2 spaces (all file types)
-- Max line length: 120 (disabled for Markdown and JSON Lines)
+- Max line length: 120 (disabled for Markdown and for the findings store under `docs/audit/findings/`)
 - Trim trailing whitespace (except Markdown)
 
 ---
@@ -139,8 +139,8 @@ You do NOT need to manually instruct subagents about context-mode.
 
 ### ctx commands
 
-| Command | Action |
-| --------- | -------- |
-| `ctx stats` | Call the `ctx_stats` MCP tool and display the full output verbatim |
-| `ctx doctor` | Call the `ctx_doctor` MCP tool, run the returned shell command, display as checklist |
+| Command       | Action                                                                                |
+|---------------|---------------------------------------------------------------------------------------|
+| `ctx stats`   | Call the `ctx_stats` MCP tool and display the full output verbatim                    |
+| `ctx doctor`  | Call the `ctx_doctor` MCP tool, run the returned shell command, display as checklist  |
 | `ctx upgrade` | Call the `ctx_upgrade` MCP tool, run the returned shell command, display as checklist |

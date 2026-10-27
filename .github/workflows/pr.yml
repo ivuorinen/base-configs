@@ -44,9 +44,12 @@ jobs:
         shell: bash
         run: corepack enable
 
+      # Unconditional and immutable: a cache-hit skip used the restored
+      # node_modules unchecked, and a plain `yarn install` rewrote a drifted
+      # lockfile instead of failing. --mode=skip-build keeps dependency install
+      # scripts off the runner.
       - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
+        run: yarn install --immutable --mode=skip-build
 
       - name: Yarn Lock Changes
         uses: Simek/yarn-lock-changes@59f47ee499424d2c2437c5aebf863b5c6d50a5bc # v0.14.1
