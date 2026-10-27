@@ -18,7 +18,7 @@ The conventional-changelog-conventionalcommits ^9.3.1 devDependency, and the Ren
 
 ## Evidence
 
-This repository releases with @ivuorinen/semantic-release-config 3.0.9 from its lockfile, which still passes `preset: "conventionalcommits"`; without the devDependency the root copy is the 10.4.1 of @commitlint/config-conventional and generateNotes fails. base-configs-semantic-release f9b6c8b loads the preset by path, which makes the root copy irrelevant, but it is not published yet.
+This repository releases with @ivuorinen/semantic-release-config 3.0.9 from its lockfile, which still passes `preset: "conventionalcommits"`; without the devDependency the root copy is conventional-changelog-conventionalcommits 10.4.1, the version @commitlint/config-conventional depends on, and generateNotes fails. base-configs-semantic-release f9b6c8b loads the preset by path, which makes the root copy irrelevant, but it is not published yet.
 
 ## Impact
 
