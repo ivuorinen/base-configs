@@ -42,7 +42,7 @@
     "commitlint": "./node_modules/.bin/commitlint --from HEAD~1 --to HEAD --verbose",
     "eslint:fix": "./node_modules/.bin/eslint '**/*.{js,tsx,ts,mjs,cjs}' --fix",
     "eslint:report": "./node_modules/.bin/eslint '**/*.{js,tsx,ts,mjs,cjs}'",
-    "fix": "./node_modules/.bin/run-s prettier:fix eslint:fix markdownlint:fix",
+    "fix": "yarn prettier:fix && yarn eslint:fix && yarn markdownlint:fix",
     "markdownlint:fix": "./node_modules/.bin/markdownlint '**/*.md' --fix",
     "markdownlint:report": "./node_modules/.bin/markdownlint '**/*.md'",
     "prettier:fix": "./node_modules/.bin/prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --write",
@@ -60,7 +60,6 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "conventional-changelog-conventionalcommits": "^9.3.1",
-    "npm-run-all2": "^9.0.2",
     "simple-git-hooks": "^2.13.1"
   },
   "resolutions": {
