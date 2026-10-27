@@ -6131,10 +6131,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:~1.7.0":
-  version: 1.7.2
-  resolution: "smol-toml@npm:1.7.2"
-  checksum: 10c0/594c1228cdbc735fb21f1aceb7eb3bf2995d891938332afb85e942e22c951d76d8adbd2df68d779da6efe3098cb1e667153f87c269ef10608d13fdf8c033171f
+"smol-toml@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "smol-toml@npm:1.9.1"
+  checksum: 10c0/8acccf7bbc063f29405f58f5014ab39bf4eb9d7f0e000e5e3f140f7d4d6ead5696681a7c15260d1f2910213012c0af43b31a05bf94f704b0bdf39989fba08c02
   languageName: node
   linkType: hard
 
