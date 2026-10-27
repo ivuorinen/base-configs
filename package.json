@@ -49,13 +49,13 @@
     "prettier:report": "./node_modules/.bin/prettier '**/*.{js,tsx,ts,json,mjs,cjs}' '.*.{js,mjs,cjs,json}' --check"
   },
   "dependencies": {
-    "@ivuorinen/browserslist-config": "^1.3.23",
-    "@ivuorinen/commitlint-config": "^2.0.2",
-    "@ivuorinen/eslint-config": "^2.0.0",
-    "@ivuorinen/markdownlint-config": "^2.0.0",
-    "@ivuorinen/prettier-config": "^2.0.13",
-    "@ivuorinen/semantic-release-config": "^3.0.0",
-    "@ivuorinen/stylelint-config": "^1.4.8",
+    "@ivuorinen/browserslist-config": "^1.3.28",
+    "@ivuorinen/commitlint-config": "^2.0.3",
+    "@ivuorinen/eslint-config": "^2.0.5",
+    "@ivuorinen/markdownlint-config": "^2.0.6",
+    "@ivuorinen/prettier-config": "^2.0.17",
+    "@ivuorinen/semantic-release-config": "^3.0.9",
+    "@ivuorinen/stylelint-config": "^1.4.14",
     "stylelint": "^17.0.0"
   },
   "devDependencies": {

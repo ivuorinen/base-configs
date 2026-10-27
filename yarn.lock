@@ -571,32 +571,32 @@ __metadata:
   resolution: "@ivuorinen/base-configs@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^21.2.3"
-    "@ivuorinen/browserslist-config": "npm:^1.3.23"
-    "@ivuorinen/commitlint-config": "npm:^2.0.2"
-    "@ivuorinen/eslint-config": "npm:^2.0.0"
-    "@ivuorinen/markdownlint-config": "npm:^2.0.0"
-    "@ivuorinen/prettier-config": "npm:^2.0.13"
-    "@ivuorinen/semantic-release-config": "npm:^3.0.0"
-    "@ivuorinen/stylelint-config": "npm:^1.4.8"
+    "@ivuorinen/browserslist-config": "npm:^1.3.28"
+    "@ivuorinen/commitlint-config": "npm:^2.0.3"
+    "@ivuorinen/eslint-config": "npm:^2.0.5"
+    "@ivuorinen/markdownlint-config": "npm:^2.0.6"
+    "@ivuorinen/prettier-config": "npm:^2.0.17"
+    "@ivuorinen/semantic-release-config": "npm:^3.0.9"
+    "@ivuorinen/stylelint-config": "npm:^1.4.14"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     simple-git-hooks: "npm:^2.13.1"
     stylelint: "npm:^17.0.0"
   languageName: unknown
   linkType: soft
 
-"@ivuorinen/browserslist-config@npm:^1.3.23":
-  version: 1.3.23
-  resolution: "@ivuorinen/browserslist-config@npm:1.3.23"
+"@ivuorinen/browserslist-config@npm:^1.3.28":
+  version: 1.3.28
+  resolution: "@ivuorinen/browserslist-config@npm:1.3.28"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.1.2"
     browserslist: "npm:^4.28.2"
-  checksum: 10c0/1d73a82fa9baae2c236c8f97cfc29d50cdee0e3697e8e00fce360d834d9bfb2efffdda1ea934060f20fea9775a5e0a997edad3acace89f398deeab1305bba85e
+  checksum: 10c0/c6ae6257370a4ed40dc7658b74f7ac5c00469a1d17b99883ea72ce909dde22f7970c6e2d9ea965b7b9aeda63de96dd5eba6483d021aeb1e57a4cd56200ab5e97
   languageName: node
   linkType: hard
 
-"@ivuorinen/commitlint-config@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@ivuorinen/commitlint-config@npm:2.0.2"
+"@ivuorinen/commitlint-config@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@ivuorinen/commitlint-config@npm:2.0.3"
   dependencies:
     "@commitlint/config-conventional": "npm:^21.2.2"
     "@ivuorinen/config-checker": "npm:^2.6.7"
@@ -605,7 +605,7 @@ __metadata:
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10c0/f5902b3ab9ee53054170708e5b9cce8f8ae1fcee207b093983d28c4cffb0a47a686f74c9686db9f062370a66e654501d753bb5d8796f02bd44645b93559e54e6
+  checksum: 10c0/be9d89a5303b88b6c452d59ac09006b445a31c3c5b71a92c99d1f438cca484f3617d705ebd0439dc41f775465c0c894782789089a82ac8496388b2c6b61db041
   languageName: node
   linkType: hard
 
@@ -616,9 +616,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/eslint-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@ivuorinen/eslint-config@npm:2.0.0"
+"@ivuorinen/eslint-config@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "@ivuorinen/eslint-config@npm:2.0.5"
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@ivuorinen/config-checker": "npm:^2.2.1"
@@ -627,44 +627,44 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-jest: "npm:^29.15.1"
     globals: "npm:^17.4.0"
-  checksum: 10c0/7c706d6c1e6d592295cc027f27f665f9b48a90e5d639f4698a341dcccb6a926f8c5785c3fdc14270156ae0eccff99f1c91e3f7e9a1ee157a8d32d55db5764745
+  checksum: 10c0/97b9d758f2cd43c52d13e2aca32ca30c5094588ee29943108ad63305c7f48c79da1822c395a4cb6758e920071673bc77abb65f87900c01863b2d5c44eb4c7939
   languageName: node
   linkType: hard
 
-"@ivuorinen/markdownlint-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@ivuorinen/markdownlint-config@npm:2.0.0"
+"@ivuorinen/markdownlint-config@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@ivuorinen/markdownlint-config@npm:2.0.6"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.6.7"
     markdownlint-cli: "npm:^0.49.1"
-  checksum: 10c0/25d2b932a48057d0318c7f5f17e04172e53216484334d12352f00d822250a809d7a9d972cfcf09eea811b61e2e933d03d464e694fd9541da82233d9ea40bb92c
+  checksum: 10c0/d144dbd630c77f2d3637bcbdda1090bd7c2203c48f5c893b98ea54723d7f3888c393b60d1565d385e6131271971408bd4c021e483b98875fc0e3c0a63e54b6a9
   languageName: node
   linkType: hard
 
-"@ivuorinen/prettier-config@npm:^2.0.13":
-  version: 2.0.13
-  resolution: "@ivuorinen/prettier-config@npm:2.0.13"
+"@ivuorinen/prettier-config@npm:^2.0.17":
+  version: 2.0.17
+  resolution: "@ivuorinen/prettier-config@npm:2.0.17"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.1"
     prettier: "npm:^3.8.1"
-  checksum: 10c0/c40a602e1d9b4b17d26a6a7d2d1c339a96a53e7edd580b7ffa7e1e4e4ffb444442db71d2a8740c4803db09f0a0c7a686f92d0aea3251fdbf55992257c8f408ff
+  checksum: 10c0/4fa375aae6a7eddef3fc158297e98829db1943231b9e930d5afcf4fc20b24864f0636bd2e66030c4a8809089b84eb9d6614fde2472d1c7e560fd7497e7add4f6
   languageName: node
   linkType: hard
 
-"@ivuorinen/semantic-release-config@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@ivuorinen/semantic-release-config@npm:3.0.0"
+"@ivuorinen/semantic-release-config@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "@ivuorinen/semantic-release-config@npm:3.0.9"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.17"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     semantic-release: "npm:^25.0.5"
-  checksum: 10c0/ba710160cdf8e40c88da6f1c2aabfacfb39b0a57db0d6dc19d218493e581d3e73a37c2751156250d3d613136e953167b6986e44f90344132cbf6fb74e84cf90c
+  checksum: 10c0/505cb779ada11dbe9d35bf751ed4b9213770c6aae2baf5214dde0cb2ea52c8127fcd45d78416efc7dcaa86e0051d88705690c5517c3ded337a25c8860f5159c7
   languageName: node
   linkType: hard
 
-"@ivuorinen/stylelint-config@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "@ivuorinen/stylelint-config@npm:1.4.8"
+"@ivuorinen/stylelint-config@npm:^1.4.14":
+  version: 1.4.14
+  resolution: "@ivuorinen/stylelint-config@npm:1.4.14"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.1"
     postcss: "npm:^8.5.18"
@@ -674,7 +674,7 @@ __metadata:
     stylelint-scss: "npm:^7.0.0"
   peerDependencies:
     stylelint: ^17.0.0
-  checksum: 10c0/c7dc5ae2188b6a4f1ec2e0fdbe691b950f5c2ff48d219c563c287113ae07ab51a0619edbcdc373e1691e5f25df1160f4df408f3471889c6389ff42f0539e8ec9
+  checksum: 10c0/8344da185e94dfea57f622b289be4d98ebe336b0c94994b0e2f2dfef7993c9afec82e2cfd77bc279fb18de2170a615ff9cd23e017097df66bb454702a45f9e25
   languageName: node
   linkType: hard
 
