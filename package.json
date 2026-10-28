@@ -54,7 +54,7 @@
     "@ivuorinen/eslint-config": "^2.0.5",
     "@ivuorinen/markdownlint-config": "^2.0.6",
     "@ivuorinen/prettier-config": "^2.0.17",
-    "@ivuorinen/semantic-release-config": "^3.0.9",
+    "@ivuorinen/semantic-release-config": "^3.0.10",
     "@ivuorinen/stylelint-config": "^1.4.14",
     "stylelint": "^17.0.0"
   },

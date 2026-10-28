@@ -564,7 +564,7 @@ __metadata:
     "@ivuorinen/eslint-config": "npm:^2.0.5"
     "@ivuorinen/markdownlint-config": "npm:^2.0.6"
     "@ivuorinen/prettier-config": "npm:^2.0.17"
-    "@ivuorinen/semantic-release-config": "npm:^3.0.9"
+    "@ivuorinen/semantic-release-config": "npm:^3.0.10"
     "@ivuorinen/stylelint-config": "npm:^1.4.14"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     simple-git-hooks: "npm:^2.13.1"
@@ -639,14 +639,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/semantic-release-config@npm:^3.0.9":
-  version: 3.0.9
-  resolution: "@ivuorinen/semantic-release-config@npm:3.0.9"
+"@ivuorinen/semantic-release-config@npm:^3.0.10":
+  version: 3.0.10
+  resolution: "@ivuorinen/semantic-release-config@npm:3.0.10"
   dependencies:
     "@ivuorinen/config-checker": "npm:^2.2.17"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     semantic-release: "npm:^25.0.5"
-  checksum: 10c0/505cb779ada11dbe9d35bf751ed4b9213770c6aae2baf5214dde0cb2ea52c8127fcd45d78416efc7dcaa86e0051d88705690c5517c3ded337a25c8860f5159c7
+  checksum: 10c0/53fcfc8b80deb8d678e05859ea345f919c8dec9212a5b9fb112cc59db1759c55d03f7cc5c0e6e1306e7fd474e69472ddd01f26a594bd2c4829c78a1d2095d8f5
   languageName: node
   linkType: hard
 
