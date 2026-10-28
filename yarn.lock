@@ -566,7 +566,6 @@ __metadata:
     "@ivuorinen/prettier-config": "npm:^2.0.17"
     "@ivuorinen/semantic-release-config": "npm:^3.0.10"
     "@ivuorinen/stylelint-config": "npm:^1.4.14"
-    conventional-changelog-conventionalcommits: "npm:^9.3.1"
     simple-git-hooks: "npm:^2.13.1"
     stylelint: "npm:^17.0.0"
   languageName: unknown
