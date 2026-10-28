@@ -52,7 +52,7 @@
     "@ivuorinen/browserslist-config": "^1.3.28",
     "@ivuorinen/commitlint-config": "^2.0.3",
     "@ivuorinen/eslint-config": "^2.0.5",
-    "@ivuorinen/markdownlint-config": "^2.0.6",
+    "@ivuorinen/markdownlint-config": "^2.0.7",
     "@ivuorinen/prettier-config": "^2.0.17",
     "@ivuorinen/semantic-release-config": "^3.0.10",
     "@ivuorinen/stylelint-config": "^1.4.14",
