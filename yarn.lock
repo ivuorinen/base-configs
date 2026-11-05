@@ -572,12 +572,12 @@ __metadata:
   linkType: soft
 
 "@ivuorinen/browserslist-config@npm:^1.3.28":
-  version: 1.3.28
-  resolution: "@ivuorinen/browserslist-config@npm:1.3.28"
+  version: 1.3.30
+  resolution: "@ivuorinen/browserslist-config@npm:1.3.30"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.1.2"
+    "@ivuorinen/config-checker": "npm:^2.7.0"
     browserslist: "npm:^4.28.2"
-  checksum: 10c0/c6ae6257370a4ed40dc7658b74f7ac5c00469a1d17b99883ea72ce909dde22f7970c6e2d9ea965b7b9aeda63de96dd5eba6483d021aeb1e57a4cd56200ab5e97
+  checksum: 10c0/684c68090d86eb24ced64c77e0f9ac4f177731fad4f1030246c337d24403a997e541e90438c93c343d670833e8d590d7adcb2ad84fe8863a95ea26211c26fd8c
   languageName: node
   linkType: hard
 
@@ -596,10 +596,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/config-checker@npm:^2.1.2, @ivuorinen/config-checker@npm:^2.2.1, @ivuorinen/config-checker@npm:^2.2.17, @ivuorinen/config-checker@npm:^2.6.7":
+"@ivuorinen/config-checker@npm:^2.2.1, @ivuorinen/config-checker@npm:^2.2.17, @ivuorinen/config-checker@npm:^2.6.7":
   version: 2.6.23
   resolution: "@ivuorinen/config-checker@npm:2.6.23"
   checksum: 10c0/f6374dbab3c9632d5eac7c01fc846dc051459567bf41f01977a01c7f046c8261ad400303ee494c52c320b30bd15ae39d46479e8e19eeae4cc0e620c21151052f
+  languageName: node
+  linkType: hard
+
+"@ivuorinen/config-checker@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@ivuorinen/config-checker@npm:2.7.0"
+  checksum: 10c0/9b61a47b65408a8a886e87b55e476fcb7ced51bd24bc06d9f225f91884516c92a52d608e8e22f870dab5c6915d4a51dc2fa97639eaf4b9d2090d26de00f5794f
   languageName: node
   linkType: hard
 
