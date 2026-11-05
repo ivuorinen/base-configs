@@ -596,10 +596,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/config-checker@npm:^2.1.2, @ivuorinen/config-checker@npm:^2.2.1, @ivuorinen/config-checker@npm:^2.2.17, @ivuorinen/config-checker@npm:^2.6.7":
+"@ivuorinen/config-checker@npm:^2.1.2, @ivuorinen/config-checker@npm:^2.2.1, @ivuorinen/config-checker@npm:^2.6.7":
   version: 2.6.23
   resolution: "@ivuorinen/config-checker@npm:2.6.23"
   checksum: 10c0/f6374dbab3c9632d5eac7c01fc846dc051459567bf41f01977a01c7f046c8261ad400303ee494c52c320b30bd15ae39d46479e8e19eeae4cc0e620c21151052f
+  languageName: node
+  linkType: hard
+
+"@ivuorinen/config-checker@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@ivuorinen/config-checker@npm:2.7.0"
+  checksum: 10c0/9b61a47b65408a8a886e87b55e476fcb7ced51bd24bc06d9f225f91884516c92a52d608e8e22f870dab5c6915d4a51dc2fa97639eaf4b9d2090d26de00f5794f
   languageName: node
   linkType: hard
 
@@ -639,13 +646,13 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/semantic-release-config@npm:^3.0.10":
-  version: 3.0.10
-  resolution: "@ivuorinen/semantic-release-config@npm:3.0.10"
+  version: 3.0.11
+  resolution: "@ivuorinen/semantic-release-config@npm:3.0.11"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.2.17"
+    "@ivuorinen/config-checker": "npm:^2.7.0"
     conventional-changelog-conventionalcommits: "npm:^9.3.1"
     semantic-release: "npm:^25.0.5"
-  checksum: 10c0/53fcfc8b80deb8d678e05859ea345f919c8dec9212a5b9fb112cc59db1759c55d03f7cc5c0e6e1306e7fd474e69472ddd01f26a594bd2c4829c78a1d2095d8f5
+  checksum: 10c0/c560d7a3302570148b624fe44bce0ae05d7715e067a18ad4e81c24a809844e0034a10ae9f8f050fcd9ec35f2d8caf22bd68d94d582a1abbcc9f88001f298c0b1
   languageName: node
   linkType: hard
 
