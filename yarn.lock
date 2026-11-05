@@ -603,6 +603,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ivuorinen/config-checker@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@ivuorinen/config-checker@npm:2.7.0"
+  checksum: 10c0/9b61a47b65408a8a886e87b55e476fcb7ced51bd24bc06d9f225f91884516c92a52d608e8e22f870dab5c6915d4a51dc2fa97639eaf4b9d2090d26de00f5794f
+  languageName: node
+  linkType: hard
+
 "@ivuorinen/eslint-config@npm:^2.0.5":
   version: 2.0.5
   resolution: "@ivuorinen/eslint-config@npm:2.0.5"
@@ -619,12 +626,12 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/markdownlint-config@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "@ivuorinen/markdownlint-config@npm:2.0.7"
+  version: 2.0.8
+  resolution: "@ivuorinen/markdownlint-config@npm:2.0.8"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.6.7"
+    "@ivuorinen/config-checker": "npm:^2.7.0"
     markdownlint-cli: "npm:^0.50.0"
-  checksum: 10c0/fae13df34e8faf2e54e32faf1c94cd9bcc1bb4bd587809dde2b2ba1585ddcbd4d7fee5bd5ceb2a7945fd9fd59a0b92469ec2cb7fba1b6c9d357035320955f526
+  checksum: 10c0/5c5eda08db1f023e73f6bf617514f2d3e07577f0cf84614b15917a40959c1c2e30eb46cce2ed5f079f2f36c97a752694e2d56b9aa5f55e553919b9b4fe3b90a3
   languageName: node
   linkType: hard
 
