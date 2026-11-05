@@ -603,6 +603,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ivuorinen/config-checker@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@ivuorinen/config-checker@npm:2.7.0"
+  checksum: 10c0/9b61a47b65408a8a886e87b55e476fcb7ced51bd24bc06d9f225f91884516c92a52d608e8e22f870dab5c6915d4a51dc2fa97639eaf4b9d2090d26de00f5794f
+  languageName: node
+  linkType: hard
+
 "@ivuorinen/eslint-config@npm:^2.0.5":
   version: 2.0.5
   resolution: "@ivuorinen/eslint-config@npm:2.0.5"
@@ -650,10 +657,10 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/stylelint-config@npm:^1.4.14":
-  version: 1.4.14
-  resolution: "@ivuorinen/stylelint-config@npm:1.4.14"
+  version: 1.4.15
+  resolution: "@ivuorinen/stylelint-config@npm:1.4.15"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.2.1"
+    "@ivuorinen/config-checker": "npm:^2.7.0"
     postcss: "npm:^8.5.18"
     stylelint-config-recommended-scss: "npm:^17.0.0"
     stylelint-config-standard: "npm:^40.0.0"
@@ -661,7 +668,7 @@ __metadata:
     stylelint-scss: "npm:^7.0.0"
   peerDependencies:
     stylelint: ^17.0.0
-  checksum: 10c0/8344da185e94dfea57f622b289be4d98ebe336b0c94994b0e2f2dfef7993c9afec82e2cfd77bc279fb18de2170a615ff9cd23e017097df66bb454702a45f9e25
+  checksum: 10c0/efb9a82d9f6cceff2f3e150334977d3d059993bf2a93055274303dc412ebf892d00d8fe93075016e1a6bce3a1bb776d5b1a08866cff1207fb9b3db47c786a7c7
   languageName: node
   linkType: hard
 
