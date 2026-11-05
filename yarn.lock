@@ -582,17 +582,17 @@ __metadata:
   linkType: hard
 
 "@ivuorinen/commitlint-config@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@ivuorinen/commitlint-config@npm:2.0.3"
+  version: 2.0.5
+  resolution: "@ivuorinen/commitlint-config@npm:2.0.5"
   dependencies:
     "@commitlint/config-conventional": "npm:^21.2.2"
-    "@ivuorinen/config-checker": "npm:^2.6.7"
+    "@ivuorinen/config-checker": "npm:^2.7.0"
   peerDependencies:
     "@commitlint/cli": ">=21"
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10c0/be9d89a5303b88b6c452d59ac09006b445a31c3c5b71a92c99d1f438cca484f3617d705ebd0439dc41f775465c0c894782789089a82ac8496388b2c6b61db041
+  checksum: 10c0/0f96434b1dfbcf253d78d5e3e9b2e55b4a4ce805fb985134ce73e9fa870f9b9cb6725fff25f973b52a6f6aa283d2a0c83148cd45d19d3539975e5850db33f2ff
   languageName: node
   linkType: hard
 
@@ -600,6 +600,13 @@ __metadata:
   version: 2.6.23
   resolution: "@ivuorinen/config-checker@npm:2.6.23"
   checksum: 10c0/f6374dbab3c9632d5eac7c01fc846dc051459567bf41f01977a01c7f046c8261ad400303ee494c52c320b30bd15ae39d46479e8e19eeae4cc0e620c21151052f
+  languageName: node
+  linkType: hard
+
+"@ivuorinen/config-checker@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@ivuorinen/config-checker@npm:2.7.0"
+  checksum: 10c0/9b61a47b65408a8a886e87b55e476fcb7ced51bd24bc06d9f225f91884516c92a52d608e8e22f870dab5c6915d4a51dc2fa97639eaf4b9d2090d26de00f5794f
   languageName: node
   linkType: hard
 
